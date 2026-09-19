@@ -1,45 +1,28 @@
-const games = [
-{
-name:"Counter-Strike 2",
-hours:1200,
-image:"https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg"
-},
-{
-name:"GTA V",
-hours:500,
-image:"https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg"
-},
-{
-name:"Rust",
-hours:800,
-image:"https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg"
+async function carregarSteam() {
+  const resposta = await fetch('./data/steam.json');
+  const dados = await resposta.json();
+
+  const jogos = dados.response.games || [];
+
+  const container = document.getElementById('games');
+
+  container.innerHTML = '';
+
+  jogos
+    .sort((a, b) => b.playtime_forever - a.playtime_forever)
+    .forEach(jogo => {
+      const horas = Math.round(jogo.playtime_forever / 60);
+
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      card.innerHTML = `
+        <h3>${jogo.name}</h3>
+        <p>${horas} horas</p>
+      `;
+
+      container.appendChild(card);
+    });
 }
-]
 
-document.getElementById("username").textContent =
-"Michel"
-
-document.getElementById("status").textContent =
-"Online"
-
-games.forEach(game=>{
-
-document.getElementById("games").innerHTML +=
-
-`
-<div class="card">
-
-<img src="${game.image}">
-
-<div class="card-content">
-
-<h3>${game.name}</h3>
-
-<p>${game.hours} horas</p>
-
-</div>
-
-</div>
-`
-
-})
+carregarSteam();
