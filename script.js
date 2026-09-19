@@ -3,7 +3,8 @@ async function carregarSteam() {
   const dados = await resposta.json();
 
   const jogos = dados.response.games || [];
-
+document.getElementById('totalJogos').textContent =
+  jogos.length + ' jogos';
   const container = document.getElementById('games');
 
   container.innerHTML = '';
