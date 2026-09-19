@@ -53,4 +53,36 @@ padding:15px;
 
 .status{
 color:#6e6e6e;
+}.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #1f1f1f;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all .25s ease;
+  box-shadow: 0 0 0 rgba(255,255,255,0);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(255,255,255,.08);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h3 {
+  padding: 12px 16px 0;
+  color: #e5e5e5;
+}
+
+.card p {
+  padding: 0 16px 16px;
+  color: #8a8a8a;
 }
