@@ -17,7 +17,13 @@ async function carregarSteam() {
       card.className = 'card';
 
       card.innerHTML = `
+        <img
+          src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+          alt="${jogo.name}"
+        >
+
         <h3>${jogo.name}</h3>
+
         <p>${horas} horas</p>
       `;
 
