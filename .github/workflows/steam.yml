@@ -11,6 +11,11 @@ jobs:
       - name: Baixar repositorio
         uses: actions/checkout@v4
 
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Gerar steam.json
         run: |
           curl "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${{ secrets.STEAM_API_KEY }}&steamid=${{ secrets.STEAM_ID }}&include_appinfo=true&include_played_free_games=true" > data/steam.json
@@ -21,7 +26,7 @@ jobs:
 
       - name: Gerar conquistas.json
         run: |
-          echo "{}" > data/conquistas.json
+          node scripts/update-achievements.js
 
       - name: Commit
         run: |
