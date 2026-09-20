@@ -1,3 +1,28 @@
+function animarNumero(elemento, valorFinal) {
+
+  let valorAtual = 0;
+
+  const incremento =
+    Math.max(1, Math.ceil(valorFinal / 60));
+
+  const timer = setInterval(() => {
+
+    valorAtual += incremento;
+
+    if (valorAtual >= valorFinal) {
+
+      valorAtual = valorFinal;
+
+      clearInterval(timer);
+
+    }
+
+    elemento.textContent = valorAtual;
+
+  }, 20);
+
+}
+
 async function carregarPerfil() {
 
   const resposta =
@@ -46,8 +71,10 @@ async function carregarSteam() {
   document.getElementById('totalJogos').textContent =
     jogos.length + ' jogos';
 
-  document.getElementById('statJogos').textContent =
-    jogos.length;
+  animarNumero(
+    document.getElementById('statJogos'),
+    jogos.length
+  );
 
   const horasTotais =
     jogos.reduce(
@@ -56,8 +83,10 @@ async function carregarSteam() {
       0
     );
 
-  document.getElementById('statHoras').textContent =
-    Math.round(horasTotais / 60);
+  animarNumero(
+    document.getElementById('statHoras'),
+    Math.round(horasTotais / 60)
+  );
 
   const maisJogado =
     [...jogos]
