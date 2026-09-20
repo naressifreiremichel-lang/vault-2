@@ -40,7 +40,8 @@ async function carregarSteam() {
 
   const container =
     document.getElementById('games');
-
+const topGames =
+  document.getElementById('topGames');
   const pesquisa =
     document.getElementById('pesquisa');
 
@@ -78,7 +79,43 @@ async function carregarSteam() {
       });
 
   }
+const top3 =
+  [...jogos]
+    .sort((a, b) =>
+      b.playtime_forever - a.playtime_forever
+    )
+    .slice(0, 3);
 
+if (topGames) {
+
+  topGames.innerHTML = '';
+
+  top3.forEach(jogo => {
+
+    const horas =
+      Math.round(jogo.playtime_forever / 60);
+
+    const card =
+      document.createElement('div');
+
+    card.className = 'top-card';
+
+    card.innerHTML = `
+      <img
+        src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+        alt="${jogo.name}"
+      >
+
+      <h3>${jogo.name}</h3>
+
+      <p>${horas} horas</p>
+    `;
+
+    topGames.appendChild(card);
+
+  });
+
+}
   renderizar(jogos);
 
   if (pesquisa) {
