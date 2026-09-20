@@ -9,6 +9,9 @@ async function carregarConquistas() {
   const cards =
     document.getElementById('cards');
 
+  const completados =
+    document.getElementById('completados');
+
   const ranking =
     document.getElementById('ranking');
 
@@ -37,7 +40,8 @@ async function carregarConquistas() {
 
   document.getElementById(
     'totalConquistas'
-  ).textContent = totalConquistas;
+  ).textContent =
+    totalConquistas;
 
   if (jogos.length > 0) {
 
@@ -84,6 +88,52 @@ async function carregarConquistas() {
       `;
 
     });
+
+  /* JOGOS 100% COMPLETOS */
+
+  completados.innerHTML = '';
+
+  const jogos100 =
+    jogos.filter(
+      jogo => jogo.percentual >= 100
+    );
+
+  jogos100.forEach(jogo => {
+
+    completados.innerHTML += `
+
+    <div class="game-card">
+
+      <img
+        class="game-banner"
+        src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+        alt="${jogo.nome}"
+      >
+
+      <div class="game-content">
+
+        <h3 class="game-title">
+          🏆 ${jogo.nome}
+        </h3>
+
+        <p class="game-achievements">
+          ${jogo.desbloqueadas}/${jogo.total}
+          conquistas
+        </p>
+
+        <div class="progress-text">
+          100% COMPLETO
+        </div>
+
+      </div>
+
+    </div>
+
+    `;
+
+  });
+
+  /* TODOS OS JOGOS */
 
   cards.innerHTML = '';
 
