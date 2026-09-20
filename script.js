@@ -15,13 +15,20 @@ async function carregarPerfil() {
   document.getElementById('nome').textContent =
     perfil.personaname;
 
-  let status = 'Offline';
+ let status = 'Offline';
 
-  if (perfil.personastate === 1)
-    status = 'Online';
+if (perfil.gameextrainfo) {
 
-  document.getElementById('status').textContent =
-    status;
+  status = 'Jogando ' + perfil.gameextrainfo;
+
+} else if (perfil.personastate === 1) {
+
+  status = 'Online';
+
+}
+
+document.getElementById('status').textContent =
+  status;
 }
 
 async function carregarSteam() {
