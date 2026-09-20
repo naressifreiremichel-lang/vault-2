@@ -1,68 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vault</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault</title>
 
-<link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="hero">
+  <div class="container">
 
-<div class="profile">
+    <header>
+      <h1>VAULT</h1>
+      <p>Sua biblioteca Steam</p>
+    </header>
 
-<img
-id="avatar"
-src=""
-alt=""
->
+    <section id="perfil" class="perfil">
 
-<div>
+      <img id="avatar" src="" alt="Avatar">
 
-<h1 id="username">
-Vault
-</h1>
+      <div>
+        <h2 id="nome">Carregando...</h2>
+        <p id="status">Carregando...</p>
+        <p id="totalJogos">0 jogos</p>
+      </div>
 
-<p id="status">
-Carregando...
-</p>
+    </section>
 
-</div>
+    <section>
 
-</div>
+      <h2>Biblioteca</h2>
 
-</header>
-<section id="perfil" class="perfil">
-  <img id="avatar" src="" alt="Avatar">
+      <input
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquisar jogo..."
+      >
 
-  <div>
-    <h2 id="nome">Carregando...</h2>
-    <p id="status">Carregando...</p>
-    <p id="totalJogos">0 jogos</p>
+      <div id="games" class="grid"></div>
+
+    </section>
+
   </div>
-</section>
-<main>
 
-<section>
-
-<h2>Biblioteca</h2>
-<input
-  type="text"
-  id="pesquisa"
-  placeholder="Pesquisar jogo..."
->
-<div id="games" class="grid">
-</div>
-
-</section>
-
-</main>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
