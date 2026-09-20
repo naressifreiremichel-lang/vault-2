@@ -250,6 +250,41 @@ async function carregarSteam() {
   });
 
 }
+async function carregarConquistas() {
 
+  try {
+
+    const resposta =
+      await fetch('./data/conquistas.json');
+
+    const dados =
+      await resposta.json();
+
+    const totalJogos =
+      Object.keys(dados).length;
+
+    const fill =
+      document.getElementById('achievementFill');
+
+    const texto =
+      document.getElementById('achievementText');
+
+    fill.style.width = '100%';
+
+    texto.textContent =
+      totalJogos +
+      ' jogos encontrados no sistema de conquistas';
+
+  } catch {
+
+    document.getElementById(
+      'achievementText'
+    ).textContent =
+      'Erro ao carregar conquistas';
+
+  }
+
+}
 carregarPerfil();
 carregarSteam();
+carregarConquistas();
