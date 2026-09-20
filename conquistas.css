@@ -200,3 +200,17 @@ body{
 #completados .game-title {
   color: #ffd700;
 }
+.ranking-card:nth-child(1) {
+  border: 1px solid gold;
+  box-shadow: 0 0 20px rgba(255,215,0,.2);
+}
+
+.ranking-card:nth-child(2) {
+  border: 1px solid silver;
+  box-shadow: 0 0 20px rgba(192,192,192,.15);
+}
+
+.ranking-card:nth-child(3) {
+  border: 1px solid #cd7f32;
+  box-shadow: 0 0 20px rgba(205,127,50,.15);
+}
