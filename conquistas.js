@@ -65,8 +65,14 @@ async function carregarConquistas() {
         <div class="ranking-top">
 
           <span>
-            ${index + 1}. ${jogo.nome}
-          </span>
+  ${
+    index === 0 ? '🥇' :
+    index === 1 ? '🥈' :
+    index === 2 ? '🥉' :
+    (index + 1) + '.'
+  }
+  ${jogo.nome}
+</span>
 
           <span>
             ${jogo.percentual}%
