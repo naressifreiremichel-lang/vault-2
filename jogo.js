@@ -54,6 +54,54 @@ async function carregarJogo() {
     jogo.percentual + '%';
 
   document.getElementById(
+    'textoProgresso'
+  ).textContent =
+    jogo.percentual + '% completo';
+
+  document.getElementById(
+    'barraProgresso'
+  ).style.width =
+    jogo.percentual + '%';
+
+  const medalha =
+    document.getElementById(
+      'medalha'
+    );
+
+  if (jogo.percentual >= 100) {
+
+    medalha.textContent =
+      '👑 LENDÁRIO';
+
+  } else if (
+    jogo.percentual >= 75
+  ) {
+
+    medalha.textContent =
+      '🥇 OURO';
+
+  } else if (
+    jogo.percentual >= 50
+  ) {
+
+    medalha.textContent =
+      '🥈 PRATA';
+
+  } else if (
+    jogo.percentual >= 25
+  ) {
+
+    medalha.textContent =
+      '🥉 BRONZE';
+
+  } else {
+
+    medalha.textContent =
+      '🎮 INICIANTE';
+
+  }
+
+  document.getElementById(
     'banner'
   ).style.backgroundImage =
     `
