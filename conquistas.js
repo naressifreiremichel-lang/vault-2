@@ -131,7 +131,11 @@ async function carregarConquistas() {
 
     completados.innerHTML += `
 
-    <div class="game-card">
+    <div
+      class="game-card"
+      onclick="window.location.href='jogo.html?appid=${jogo.appid}'"
+      style="cursor:pointer"
+    >
 
       <img
         class="game-banner"
@@ -168,7 +172,11 @@ async function carregarConquistas() {
 
     cards.innerHTML += `
 
-    <div class="game-card">
+    <div
+      class="game-card"
+      onclick="window.location.href='jogo.html?appid=${jogo.appid}'"
+      style="cursor:pointer"
+    >
 
       <img
         class="game-banner"
