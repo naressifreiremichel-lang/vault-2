@@ -179,3 +179,24 @@ body{
 }
 
 }
+.game-card:has(.progress-text:contains("100%")) {
+  border: 1px solid #d4af37;
+}
+
+.completados .game-card,
+#completados .game-card {
+  background: linear-gradient(
+    135deg,
+    rgba(212,175,55,.15),
+    rgba(255,215,0,.05)
+  );
+
+  border: 1px solid #d4af37;
+
+  box-shadow:
+    0 0 20px rgba(255,215,0,.15);
+}
+
+#completados .game-title {
+  color: #ffd700;
+}
