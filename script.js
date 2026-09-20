@@ -44,8 +44,7 @@ async function carregarPerfil() {
 
   if (perfil.gameextrainfo) {
 
-    status =
-      'Jogando ' + perfil.gameextrainfo;
+    status = 'Jogando ' + perfil.gameextrainfo;
 
   } else if (perfil.personastate === 1) {
 
@@ -55,6 +54,7 @@ async function carregarPerfil() {
 
   document.getElementById('status').textContent =
     status;
+
 }
 
 async function carregarSteam() {
@@ -105,17 +105,24 @@ async function carregarSteam() {
   const topGames =
     document.getElementById('topGames');
 
+  const topChart =
+    document.getElementById('topChart');
+
   const pesquisa =
     document.getElementById('pesquisa');
 
+  const jogosOrdenados =
+    [...jogos].sort(
+      (a, b) =>
+        b.playtime_forever -
+        a.playtime_forever
+    );
+
   const top3 =
-    [...jogos]
-      .sort(
-        (a, b) =>
-          b.playtime_forever -
-          a.playtime_forever
-      )
-      .slice(0, 3);
+    jogosOrdenados.slice(0, 3);
+
+  const top5 =
+    jogosOrdenados.slice(0, 5);
 
   topGames.innerHTML = '';
 
@@ -129,8 +136,7 @@ async function carregarSteam() {
     const card =
       document.createElement('div');
 
-    card.className =
-      'top-card';
+    card.className = 'top-card';
 
     card.innerHTML = `
       <img
@@ -146,6 +152,45 @@ async function carregarSteam() {
     topGames.appendChild(card);
 
   });
+
+  if (topChart) {
+
+    topChart.innerHTML = '';
+
+    const maiorTempo =
+      top5[0]?.playtime_forever || 1;
+
+    top5.forEach(jogo => {
+
+      const horas =
+        Math.round(
+          jogo.playtime_forever / 60
+        );
+
+      const porcentagem =
+        (jogo.playtime_forever / maiorTempo) * 100;
+
+      topChart.innerHTML += `
+        <div class="chart-row">
+
+          <div class="chart-info">
+            <span>${jogo.name}</span>
+            <span>${horas}h</span>
+          </div>
+
+          <div class="chart-bar-bg">
+            <div
+              class="chart-bar"
+              style="width:${porcentagem}%"
+            ></div>
+          </div>
+
+        </div>
+      `;
+
+    });
+
+  }
 
   function renderizar(lista) {
 
@@ -167,8 +212,7 @@ async function carregarSteam() {
         const card =
           document.createElement('div');
 
-        card.className =
-          'card';
+        card.className = 'card';
 
         card.innerHTML = `
           <img
