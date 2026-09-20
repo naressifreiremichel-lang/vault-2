@@ -141,3 +141,41 @@ color:#6e6e6e;
     transform: translateY(0);
   }
 }
+.top-games {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.top-card {
+  background: #1f1f1f;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.top-card:hover {
+  transform: translateY(-6px);
+}
+
+.top-card img {
+  width: 100%;
+  display: block;
+}
+
+.top-card h3 {
+  padding: 12px;
+  margin: 0;
+}
+
+.top-card p {
+  padding: 0 12px 12px;
+  color: #8a8a8a;
+}
+
+@media (max-width: 900px) {
+  .top-games {
+    grid-template-columns: 1fr;
+  }
+}
