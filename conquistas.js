@@ -45,10 +45,35 @@ async function carregarConquistas() {
 
   if (jogos.length > 0) {
 
+    const campeao = jogos[0];
+
     document.getElementById(
       'melhorJogo'
     ).textContent =
-      jogos[0].nome;
+      campeao.nome;
+
+    document.getElementById(
+      'campeaoNome'
+    ).textContent =
+      campeao.nome;
+
+    document.getElementById(
+      'campeaoTexto'
+    ).textContent =
+      `${campeao.desbloqueadas}/${campeao.total} conquistas • ${campeao.percentual}% completo`;
+
+    document.getElementById(
+      'campeao'
+    ).style.backgroundImage =
+      `
+      linear-gradient(
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.7)
+      ),
+      url(
+        "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${campeao.appid}/header.jpg"
+      )
+      `;
 
   }
 
@@ -65,14 +90,14 @@ async function carregarConquistas() {
         <div class="ranking-top">
 
           <span>
-  ${
-    index === 0 ? '🥇' :
-    index === 1 ? '🥈' :
-    index === 2 ? '🥉' :
-    (index + 1) + '.'
-  }
-  ${jogo.nome}
-</span>
+            ${
+              index === 0 ? '🥇' :
+              index === 1 ? '🥈' :
+              index === 2 ? '🥉' :
+              (index + 1) + '.'
+            }
+            ${jogo.nome}
+          </span>
 
           <span>
             ${jogo.percentual}%
@@ -94,8 +119,6 @@ async function carregarConquistas() {
       `;
 
     });
-
-  /* JOGOS 100% COMPLETOS */
 
   completados.innerHTML = '';
 
@@ -138,8 +161,6 @@ async function carregarConquistas() {
     `;
 
   });
-
-  /* TODOS OS JOGOS */
 
   cards.innerHTML = '';
 
