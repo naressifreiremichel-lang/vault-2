@@ -25,8 +25,11 @@ jobs:
           curl "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${{ secrets.STEAM_API_KEY }}&steamids=${{ secrets.STEAM_ID }}" > data/perfil.json
 
       - name: Gerar conquistas.json
-        run: |
-          node scripts/update-achievements.js
+  env:
+    STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+    STEAM_ID: ${{ secrets.STEAM_ID }}
+  run: |
+    node scripts/update-achievements.js
 
       - name: Commit
         run: |
