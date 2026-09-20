@@ -15,20 +15,21 @@ async function carregarPerfil() {
   document.getElementById('nome').textContent =
     perfil.personaname;
 
- let status = 'Offline';
+  let status = 'Offline';
 
-if (perfil.gameextrainfo) {
+  if (perfil.gameextrainfo) {
 
-  status = 'Jogando ' + perfil.gameextrainfo;
+    status =
+      'Jogando ' + perfil.gameextrainfo;
 
-} else if (perfil.personastate === 1) {
+  } else if (perfil.personastate === 1) {
 
-  status = 'Online';
+    status = 'Online';
 
-}
+  }
 
-document.getElementById('status').textContent =
-  status;
+  document.getElementById('status').textContent =
+    status;
 }
 
 async function carregarSteam() {
@@ -45,30 +46,100 @@ async function carregarSteam() {
   document.getElementById('totalJogos').textContent =
     jogos.length + ' jogos';
 
+  document.getElementById('statJogos').textContent =
+    jogos.length;
+
+  const horasTotais =
+    jogos.reduce(
+      (total, jogo) =>
+        total + jogo.playtime_forever,
+      0
+    );
+
+  document.getElementById('statHoras').textContent =
+    Math.round(horasTotais / 60);
+
+  const maisJogado =
+    [...jogos]
+      .sort(
+        (a, b) =>
+          b.playtime_forever -
+          a.playtime_forever
+      )[0];
+
+  document.getElementById('statTop').textContent =
+    maisJogado.name;
+
   const container =
     document.getElementById('games');
-const topGames =
-  document.getElementById('topGames');
+
+  const topGames =
+    document.getElementById('topGames');
+
   const pesquisa =
     document.getElementById('pesquisa');
+
+  const top3 =
+    [...jogos]
+      .sort(
+        (a, b) =>
+          b.playtime_forever -
+          a.playtime_forever
+      )
+      .slice(0, 3);
+
+  topGames.innerHTML = '';
+
+  top3.forEach(jogo => {
+
+    const horas =
+      Math.round(
+        jogo.playtime_forever / 60
+      );
+
+    const card =
+      document.createElement('div');
+
+    card.className =
+      'top-card';
+
+    card.innerHTML = `
+      <img
+        src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+        alt="${jogo.name}"
+      >
+
+      <h3>${jogo.name}</h3>
+
+      <p>${horas} horas</p>
+    `;
+
+    topGames.appendChild(card);
+
+  });
 
   function renderizar(lista) {
 
     container.innerHTML = '';
 
     lista
-      .sort((a, b) =>
-        b.playtime_forever - a.playtime_forever
+      .sort(
+        (a, b) =>
+          b.playtime_forever -
+          a.playtime_forever
       )
       .forEach(jogo => {
 
         const horas =
-          Math.round(jogo.playtime_forever / 60);
+          Math.round(
+            jogo.playtime_forever / 60
+          );
 
         const card =
           document.createElement('div');
 
-        card.className = 'card';
+        card.className =
+          'card';
 
         card.innerHTML = `
           <img
@@ -86,64 +157,24 @@ const topGames =
       });
 
   }
-const top3 =
-  [...jogos]
-    .sort((a, b) =>
-      b.playtime_forever - a.playtime_forever
-    )
-    .slice(0, 3);
 
-if (topGames) {
-
-  topGames.innerHTML = '';
-
-  top3.forEach(jogo => {
-
-    const horas =
-      Math.round(jogo.playtime_forever / 60);
-
-    const card =
-      document.createElement('div');
-
-    card.className = 'top-card';
-
-    card.innerHTML = `
-      <img
-        src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
-        alt="${jogo.name}"
-      >
-
-      <h3>${jogo.name}</h3>
-
-      <p>${horas} horas</p>
-    `;
-
-    topGames.appendChild(card);
-
-  });
-
-}
   renderizar(jogos);
 
-  if (pesquisa) {
+  pesquisa.addEventListener('input', () => {
 
-    pesquisa.addEventListener('input', () => {
+    const texto =
+      pesquisa.value.toLowerCase();
 
-      const texto =
-        pesquisa.value.toLowerCase();
+    const filtrados =
+      jogos.filter(jogo =>
+        jogo.name
+          .toLowerCase()
+          .includes(texto)
+      );
 
-      const filtrados =
-        jogos.filter(jogo =>
-          jogo.name
-            .toLowerCase()
-            .includes(texto)
-        );
+    renderizar(filtrados);
 
-      renderizar(filtrados);
-
-    });
-
-  }
+  });
 
 }
 
