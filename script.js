@@ -23,62 +23,85 @@ async function carregarPerfil() {
   document.getElementById('status').textContent =
     status;
 }
-async function carregarSteam()}
 
-renderizar(jogos);
+async function carregarSteam() {
 
-pesquisa.addEventListener('input', () => {
+  const resposta =
+    await fetch('./data/steam.json');
 
-  const texto =
-    pesquisa.value.toLowerCase();
+  const dados =
+    await resposta.json();
 
-  const filtrados =
-    jogos.filter(jogo =>
-      jogo.name.toLowerCase().includes(texto)
-    );
+  const jogos =
+    dados.response.games || [];
 
-  renderizar(filtrados);
+  document.getElementById('totalJogos').textContent =
+    jogos.length + ' jogos';
 
-}); {
-  const resposta = await fetch('./data/steam.json');
-  const dados = await resposta.json();
+  const container =
+    document.getElementById('games');
 
-  const jogos = dados.response.games || [];
   const pesquisa =
-  document.getElementById('pesquisa');
-document.getElementById('totalJogos').textContent =
-  jogos.length + ' jogos';
-  const container = document.getElementById('games');
-
-  container.innerHTML = '';
+    document.getElementById('pesquisa');
 
   function renderizar(lista) {
 
-  container.innerHTML = '';
+    container.innerHTML = '';
 
-  lista
-    .sort((a, b) =>
-      b.playtime_forever - a.playtime_forever
-    )
-    .forEach(jogo => {
+    lista
+      .sort((a, b) =>
+        b.playtime_forever - a.playtime_forever
+      )
+      .forEach(jogo => {
 
-      const card = document.createElement('div');
-      card.className = 'card';
+        const horas =
+          Math.round(jogo.playtime_forever / 60);
 
-      card.innerHTML = `
-        <img
-          src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
-          alt="${jogo.name}"
-        >
+        const card =
+          document.createElement('div');
 
-        <h3>${jogo.name}</h3>
+        card.className = 'card';
 
-        <p>${horas} horas</p>
-      `;
+        card.innerHTML = `
+          <img
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+            alt="${jogo.name}"
+          >
 
-      container.appendChild(card);
+          <h3>${jogo.name}</h3>
+
+          <p>${horas} horas</p>
+        `;
+
+        container.appendChild(card);
+
+      });
+
+  }
+
+  renderizar(jogos);
+
+  if (pesquisa) {
+
+    pesquisa.addEventListener('input', () => {
+
+      const texto =
+        pesquisa.value.toLowerCase();
+
+      const filtrados =
+        jogos.filter(jogo =>
+          jogo.name
+            .toLowerCase()
+            .includes(texto)
+        );
+
+      renderizar(filtrados);
+
     });
+
+  }
+
 }
 
-carregarSteam();
 carregarPerfil();
+carregarSteam();
