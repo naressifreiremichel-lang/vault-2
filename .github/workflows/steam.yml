@@ -18,14 +18,17 @@ jobs:
       - name: Gerar perfil.json
         run: |
           curl "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${{ secrets.STEAM_API_KEY }}&steamids=${{ secrets.STEAM_ID }}" > data/perfil.json
-
+      - name: Gerar conquistas.json
+        run: |
+          echo "{}" > data/conquistas.json
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add data/steam.json
-          git add data/perfil.json
+    git add data/steam.json
+git add data/perfil.json
+git add data/conquistas.json
 
           if ! git diff --staged --quiet; then
             git commit -m "Atualizacao Steam"
