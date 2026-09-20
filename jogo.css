@@ -12,26 +12,20 @@ body{
 
 .banner{
   height:350px;
-
   background-size:cover;
   background-position:center;
-
   display:flex;
   align-items:flex-end;
 }
 
 .banner-overlay{
-
   width:100%;
-
   padding:40px;
-
   background:
     linear-gradient(
       rgba(0,0,0,.2),
       rgba(0,0,0,.9)
     );
-
 }
 
 .voltar{
@@ -39,6 +33,7 @@ body{
   text-decoration:none;
   display:inline-block;
   margin-bottom:20px;
+  font-weight:bold;
 }
 
 .banner h1{
@@ -57,10 +52,51 @@ body{
   padding:30px;
 }
 
+/* PROGRESSO */
+
+.progresso-section{
+  background:#1b2838;
+  border-radius:24px;
+  padding:30px;
+  margin-bottom:30px;
+}
+
+.progresso-section h2{
+  margin-bottom:20px;
+}
+
+.barra-bg{
+  width:100%;
+  height:32px;
+  background:#101822;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+.barra-fill{
+  width:0%;
+  height:100%;
+  background:linear-gradient(
+    90deg,
+    #66c0f4,
+    #1a9fff
+  );
+  transition:width 1.2s ease;
+}
+
+.texto-progresso{
+  margin-top:12px;
+  font-size:22px;
+  font-weight:bold;
+}
+
+/* STATS */
+
 .stats{
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:20px;
+  margin-bottom:30px;
 }
 
 .stat{
@@ -79,14 +115,59 @@ body{
   font-weight:bold;
 }
 
+/* MEDALHA */
+
+.medalha-section{
+  background:#1b2838;
+  border-radius:24px;
+  padding:30px;
+}
+
+.medalha-section h2{
+  margin-bottom:20px;
+}
+
+.medalha{
+  font-size:42px;
+  font-weight:bold;
+  text-align:center;
+  padding:25px;
+  border-radius:18px;
+  background:#101822;
+}
+
+/* ANIMAÇÕES */
+
+.stat,
+.progresso-section,
+.medalha-section{
+  transition:.3s;
+}
+
+.stat:hover,
+.progresso-section:hover,
+.medalha-section:hover{
+  transform:translateY(-4px);
+}
+
+/* RESPONSIVO */
+
 @media(max-width:900px){
 
   .stats{
     grid-template-columns:1fr;
   }
 
+  .banner{
+    height:250px;
+  }
+
   .banner h1{
     font-size:32px;
+  }
+
+  .medalha{
+    font-size:28px;
   }
 
 }
