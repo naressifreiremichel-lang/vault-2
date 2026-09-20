@@ -1,3 +1,28 @@
+async function carregarPerfil() {
+
+  const resposta =
+    await fetch('./data/perfil.json');
+
+  const dados =
+    await resposta.json();
+
+  const perfil =
+    dados.response.players[0];
+
+  document.getElementById('avatar').src =
+    perfil.avatarfull;
+
+  document.getElementById('nome').textContent =
+    perfil.personaname;
+
+  let status = 'Offline';
+
+  if (perfil.personastate === 1)
+    status = 'Online';
+
+  document.getElementById('status').textContent =
+    status;
+}
 async function carregarSteam() {
   const resposta = await fetch('./data/steam.json');
   const dados = await resposta.json();
@@ -33,3 +58,4 @@ document.getElementById('totalJogos').textContent =
 }
 
 carregarSteam();
+carregarPerfil();
