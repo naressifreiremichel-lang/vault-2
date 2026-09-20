@@ -338,3 +338,80 @@ body {
   );
   border-radius: 999px;
 }
+/* VAULT PREMIUM */
+
+body {
+  background:
+    radial-gradient(circle at top, #1b2838 0%, #0a0a0a 45%);
+}
+
+.stat-card,
+.achievement-card,
+#topChart,
+.card,
+.top-card,
+.perfil {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.05);
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.25);
+}
+
+.stat-card:hover,
+.card:hover,
+.top-card:hover {
+  transform: translateY(-8px);
+  transition: .3s;
+}
+
+.hero {
+  box-shadow:
+    0 20px 50px rgba(0,0,0,.4);
+}
+
+.hero-overlay h1 {
+  text-shadow:
+    0 0 20px rgba(255,255,255,.15);
+}
+
+.perfil img {
+  box-shadow:
+    0 0 30px rgba(79,70,229,.35);
+}
+
+.achievement-fill {
+  background:
+    linear-gradient(
+      90deg,
+      #f59e0b,
+      #fbbf24
+    );
+}
+
+.chart-bar {
+  background:
+    linear-gradient(
+      90deg,
+      #4f46e5,
+      #7c3aed,
+      #9333ea
+    );
+}
+
+.card img,
+.top-card img {
+  transition: .4s;
+}
+
+.card:hover img,
+.top-card:hover img {
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+section {
+  margin-bottom: 30px;
+}
