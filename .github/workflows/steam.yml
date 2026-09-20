@@ -14,16 +14,19 @@ jobs:
       - name: Gerar steam.json
         run: |
           curl "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${{ secrets.STEAM_API_KEY }}&steamid=${{ secrets.STEAM_ID }}&include_appinfo=true&include_played_free_games=true" > data/steam.json
+
       - name: Gerar perfil.json
         run: |
           curl "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${{ secrets.STEAM_API_KEY }}&steamids=${{ secrets.STEAM_ID }}" > data/perfil.json
+
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add data/steam.json
-git add data/perfil.json
+          git add data/perfil.json
+
           if ! git diff --staged --quiet; then
             git commit -m "Atualizacao Steam"
             git push
