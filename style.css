@@ -204,3 +204,33 @@ header p {
   background: #888;
   transition: width 1s ease;
 }
+.hero {
+  height: 250px;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,.6),
+      rgba(0,0,0,.8)
+    ),
+    url("https://images.steamusercontent.com/ugc/placeholder");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-overlay h1 {
+  font-size: 56px;
+  letter-spacing: 6px;
+}
+
+.hero-overlay p {
+  color: #b0b0b0;
+  margin-top: 10px;
+}
