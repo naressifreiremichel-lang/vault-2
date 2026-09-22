@@ -105,27 +105,34 @@ async function carregarAmigo() {
 
     biblioteca.innerHTML += `
 
-      <div class="game-card">
+      <a
+        href="amigo-jogo.html?steamid=${steamid}&appid=${jogo.appid}"
+        style="text-decoration:none;color:inherit;"
+      >
 
-        <img
-          class="game-banner"
-          src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
-          alt="${jogo.name}"
-        >
+        <div class="game-card">
 
-        <div class="game-content">
+          <img
+            class="game-banner"
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+            alt="${jogo.name}"
+          >
 
-          <h3 class="game-title">
-            ${jogo.name}
-          </h3>
+          <div class="game-content">
 
-          <p class="game-hours">
-            ⏱️ ${horas} horas
-          </p>
+            <h3 class="game-title">
+              ${jogo.name}
+            </h3>
+
+            <p class="game-hours">
+              ⏱️ ${horas} horas
+            </p>
+
+          </div>
 
         </div>
 
-      </div>
+      </a>
 
     `;
 
