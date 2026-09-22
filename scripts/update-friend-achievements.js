@@ -26,25 +26,73 @@ async function main() {
 
       try {
 
-        const resposta =
+        const respostaConquistas =
           await fetch(
             `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${apiKey}&steamid=${steamid}&appid=${jogo.appid}`
           );
 
-        const dados =
-          await resposta.json();
+        const dadosConquistas =
+          await respostaConquistas.json();
 
         const conquistas =
-          dados.playerstats
+          dadosConquistas.playerstats
             ?.achievements || [];
 
+        const respostaSchema =
+          await fetch(
+            `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${apiKey}&appid=${jogo.appid}`
+          );
+
+        const dadosSchema =
+          await respostaSchema.json();
+
+        const schemaAchievements =
+          dadosSchema.game
+            ?.availableGameStats
+            ?.achievements || [];
+
+        const listaCompleta =
+          conquistas.map(conquista => {
+
+            const schema =
+              schemaAchievements.find(
+                a =>
+                  a.name ===
+                  conquista.apiname
+              );
+
+            return {
+
+              nome:
+                schema?.displayName ||
+                conquista.apiname,
+
+              descricao:
+                schema?.description ||
+                '',
+
+              icone:
+                schema?.icon ||
+                '',
+
+              iconeCinza:
+                schema?.icongray ||
+                '',
+
+              desbloqueada:
+                conquista.achieved === 1
+
+            };
+
+          });
+
         const desbloqueadas =
-          conquistas.filter(
-            a => a.achieved === 1
+          listaCompleta.filter(
+            a => a.desbloqueada
           ).length;
 
         const total =
-          conquistas.length;
+          listaCompleta.length;
 
         const percentual =
           total > 0
@@ -67,24 +115,18 @@ async function main() {
           percentual,
 
           achievements:
-            conquistas.map(
-              conquista => ({
-
-                apiName:
-                  conquista.apiname,
-
-                desbloqueada:
-                  conquista.achieved === 1
-
-              })
-            )
+            listaCompleta
 
         };
+
+        console.log(
+          `OK ${jogo.name}`
+        );
 
       } catch (erro) {
 
         console.log(
-          `Erro no jogo ${jogo.appid}`
+          `ERRO ${jogo.name}`
         );
 
       }
