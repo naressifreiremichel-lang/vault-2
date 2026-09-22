@@ -51,7 +51,7 @@ jobs:
           git add data/perfil.json
           git add data/conquistas.json
           git add data/amigos.json
-
+          git add data/friend-games.json
           if ! git diff --staged --quiet; then
             git commit -m "Atualizacao Steam"
             git push
