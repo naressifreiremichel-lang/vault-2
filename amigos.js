@@ -1,56 +1,53 @@
 async function carregarAmigos() {
 
+  const resposta =
+    await fetch('./data/amigos.json');
+
+  const amigos =
+    await resposta.json();
+
   const container =
     document.getElementById('amigos');
 
-  container.innerHTML =
-    '<p>Carregando amigos...</p>';
+  container.innerHTML = '';
 
-  try {
+  amigos.forEach(amigo => {
 
-    const resposta =
-      await fetch('./data/amigos.json');
+    const statusClasse =
+      amigo.status.includes('Offline')
+        ? 'offline'
+        : 'online';
 
-    const amigos =
-      await resposta.json();
+    container.innerHTML += `
 
-    container.innerHTML = '';
+    <a
+      class="friend-card"
+      href="amigo.html?steamid=${amigo.steamid}"
+    >
 
-    amigos.forEach(amigo => {
+      <img
+        class="friend-avatar"
+        src="${amigo.avatar}"
+        alt="${amigo.nome}"
+      >
 
-      container.innerHTML += `
+      <div class="friend-info">
 
-      <div class="amigo">
+        <h3>
+          ${amigo.nome}
+        </h3>
 
-        <img
-          src="${amigo.avatar}"
-          alt="${amigo.nome}"
-        >
-
-        <div>
-
-          <div class="nome">
-            ${amigo.nome}
-          </div>
-
-          <div class="status">
-            ${amigo.status}
-          </div>
-
-        </div>
+        <p class="${statusClasse}">
+          ${amigo.status}
+        </p>
 
       </div>
 
-      `;
+    </a>
 
-    });
+    `;
 
-  } catch {
-
-    container.innerHTML =
-      '<p>Erro ao carregar amigos.</p>';
-
-  }
+  });
 
 }
 
