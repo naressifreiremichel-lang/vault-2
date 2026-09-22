@@ -149,14 +149,27 @@ async function carregarConquistas() {
 
         html += `
 
-          <div class="game-card">
+          <div class="achievement-card">
 
-            <div class="game-content">
+            <img
+              class="achievement-icon"
+              src="${
+                conquista.desbloqueada
+                  ? conquista.icone
+                  : conquista.iconeCinza
+              }"
+              alt="${conquista.nome}"
+            >
+
+            <div>
 
               <h3>
-                🏆
-                ${conquista.apiName}
+                ${conquista.nome}
               </h3>
+
+              <p>
+                ${conquista.descricao || ''}
+              </p>
 
               <p>
                 ${
