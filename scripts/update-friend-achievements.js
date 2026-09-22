@@ -57,17 +57,37 @@ async function main() {
 
         resultado[steamid][jogo.appid] = {
 
-          nome: jogo.name,
+          nome:
+            jogo.name,
 
           desbloqueadas,
 
           total,
 
-          percentual
+          percentual,
+
+          achievements:
+            conquistas.map(
+              conquista => ({
+
+                apiName:
+                  conquista.apiname,
+
+                desbloqueada:
+                  conquista.achieved === 1
+
+              })
+            )
 
         };
 
-      } catch {}
+      } catch (erro) {
+
+        console.log(
+          `Erro no jogo ${jogo.appid}`
+        );
+
+      }
 
     }
 
