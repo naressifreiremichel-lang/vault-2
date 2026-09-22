@@ -1,259 +1,7374 @@
 {
+  "76561199438642145": {},
   "76561199821092769": {
     "730": {
       "nome": "Counter-Strike 2",
       "desbloqueadas": 1,
       "total": 1,
-      "percentual": 100
+      "percentual": 100,
+      "achievements": [
+        {
+          "apiName": "PLAY_CS2",
+          "desbloqueada": true
+        }
+      ]
     },
     "108600": {
       "nome": "Project Zomboid",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "227300": {
       "nome": "Euro Truck Simulator 2",
       "desbloqueadas": 0,
       "total": 106,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "map_discover_60",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "map_discover_100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_train",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_boat",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "discover_all_agencies",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_all_ports",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "buy_truck_online",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "metallic_multi_color_paint",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "999_km_with_each_brand",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "job_urgent",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "job_2000_km",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "job_15_companies",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "job_no_ferry",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "job_all_trailer_types",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "perfect_delivery",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "5_jobs_in_a_row",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_automatic_parking",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "jobs_30_cargo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "jobs_20k_xp",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "quick_travel_to_hq",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "garages_in_hq_country",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "garage_in_every_city",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "large_garage_productivity",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "daily_profit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "productivity_all_garages",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "maxed_male_female",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_rest_stop",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "use_gas_station",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_volvo_cargo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_scania_cargo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_deliver_marinas",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_container_ports",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_cows_to_farm",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_quarries_cargo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sc_oresund_bridge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_landmarks",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_nucplants",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_airports",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_truckstop",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "hc_firstjob",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "hc_threeperf",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "hc_1000xps",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "hc_250t5jobs",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "hc_allcargos",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_garages",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_shipyards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_volcanoes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_roads_to_rome",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_quarry",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_first_cargo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_all_cargos",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_all_routes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_no_damage",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_silo",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_cat_785c",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_pilot_boat",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "st_mass",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_job_countries",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_to_russia",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_concrete",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_industry",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ba_farm",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "it_visit_sardinia",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "fr_visit_corsica",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_border_crossings",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_blke_ferry",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_landmarks",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_istanbul_jobs",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_black_sea",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "be_express",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_container_ports",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_solar_power_plants",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_shipyards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_a_coruna",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ib_cutscenes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "unload_difficulty",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "bw_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "bw_cutscenes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "bw_pristina_bijelo_polje",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "bw_coastline",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "bw_ore_caravans",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_first",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_interior",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_truck_driving",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_no_forward",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_manual_transmission",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_consecutive",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gr_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gr_cutscenes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gr_hotels",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gr_olive",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gr_marble",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_pass_conditions",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_stars",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_stars_consecutive",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "pc_visit_cities",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "pc_cutscenes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "pc_salm_fillet",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "pc_polar_circle",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "aca_book3",
+          "desbloqueada": false
+        }
+      ]
     },
     "239140": {
       "nome": "Dying Light",
       "desbloqueadas": 3,
       "total": 78,
-      "percentual": 4
+      "percentual": 4,
+      "achievements": [
+        {
+          "apiName": "ACH_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_11",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_18",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_21",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_22",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_23",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_24",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_26",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_27",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_28",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_29",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_30",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_31",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_32",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_33",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_34",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_36",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_37",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_38",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_39",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_41",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_42",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_43",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_44",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_45",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_46",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_47",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_48",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_49",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_51",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_52",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_53",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_54",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_55",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_56",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_57",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_58",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_59",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_60",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_61",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_62",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_63",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_64",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_65",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_66",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_67",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_68",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_70",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_71",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_72",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_73",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_74",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_75",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_76",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_77",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_78",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_79",
+          "desbloqueada": false
+        }
+      ]
     },
     "291550": {
       "nome": "Brawlhalla",
       "desbloqueadas": 3,
       "total": 65,
-      "percentual": 5
+      "percentual": 5,
+      "achievements": [
+        {
+          "apiName": "ACH_1_GoldEarnedBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_2_GoldEarnedSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_3_GoldEarnedGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_4_AccountLevelBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_5_AccountLevelBronze2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_6_AccountLevelSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_7_AccountLevelGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_8_HammerHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_9_SwordHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_10_PistolHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_11_LanceHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_12_SpearHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_13_KatarsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_14_AxeHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_15_BowHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_16_FistsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_17_ScytheHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_21_PlayMatchmakingBronze",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_19_PlayMatchmakingSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_18_PlayFFA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_20_PlayRanked",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_22_Play2v2Unranked",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_23_Play2v2Ranked",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_24_PlayBotW",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_25_KillBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_26_KillSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_27_KillGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_28_Wins1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_29_Wins2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_30_Wins3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_31_2HeroesLevel5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_32_5HeroesLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_33_10HeroesLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_34_DoubleKill25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_35_KillThrowsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_36_3Stock",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_37_GavityCancelSigKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_38_SayGGBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_39_RedLastStockKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_40_CannonHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_41_OrbHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_42_GreatswordHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_43_3HeroesLevel25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_44_5HeroesLevel50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_45_SlideChargeSigKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_46_BouncyBombMultiHit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_47_SixKOsInTeamGame",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_48_DashJumpGroundPoundKO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_49_HordeSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_50_BootsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_51_SpikeBallQuadHit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_52_CatchBombsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_53_SixSigsSingleMatch",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_54_BuySkyforged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_55_BuyGoldforged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_56_1HeroLevel40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_57_AccountLevelExpansion2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_58_ChakramHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_59_LoseRematchSwitchWin",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_60_WinRematchSeries10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_61_GavityCancelLightKillsSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_62_Ranked1v1LightOnlyKO10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_63_TripleKill5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_64_TripleHitSig5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_65_Level25Weapons8",
+          "desbloqueada": false
+        }
+      ]
     },
     "304930": {
       "nome": "Unturned",
       "desbloqueadas": 6,
       "total": 95,
-      "percentual": 6
+      "percentual": 6,
+      "achievements": [
+        {
+          "apiName": "PEI",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Bridge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Mastermind",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Offense",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Defense",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Support",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Experienced",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hoarder",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Outdoors",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Psychopath",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Murderer",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Survivor",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Unturned",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hardened",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Forged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Scavenger",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Camper",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Schooled",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Berries",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Accident_Prone",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Wheel",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Yukon",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Washington",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Educated",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Fishing",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Crafting",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Farming",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Headshot",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Sharpshooter",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hiking",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Roadtrip",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Champion",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fortified",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Russia",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Soulcrystal",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Paragon",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Villain",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Mk2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Quest",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ensign",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Lieutenant",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Major",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hawaii",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Boss_Magma",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Peaks",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Zweihander",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_Squeek",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_FelineFriends",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_DinosaurJuice",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_HomeDecor",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_AlwaysWatching",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_FamiliarFaces",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ireland_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Elver_FinalBoss",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Elver_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Delivery",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Snowman",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Cook",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Power",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_Finale",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_RPG",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_EscapingOutlands",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_DunemansPromise",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Frost_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Frost_Expedition",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_ADayInTheSun",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Memory",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_TacoWaffle",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Anomaly",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_BombsAway",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_ForcefulAcquisition",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_DeadSilent",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_PoorInvestment",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_Bookworm",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_BrokenChains",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_ChaosTheorem",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_PermanentTourist",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_SproutUp",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RioRemastered_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Covert",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Dare",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Concrete",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Widowmaker",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_ZoneTrekker",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_DiplomaticImmunity",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_EmployeeOfTheCentury",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_HeartOfGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_AnOldWound",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_VoidCave",
+          "desbloqueada": false
+        }
+      ]
     },
     "1238810": {
       "nome": "Battlefield™ V",
       "desbloqueadas": 0,
       "total": 21,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "Achievement_GOSCC_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_11",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_18",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Achievement_GOSCC_21",
+          "desbloqueada": false
+        }
+      ]
     },
     "1677740": {
       "nome": "Stumble Guys",
       "desbloqueadas": 12,
       "total": 36,
-      "percentual": 33
+      "percentual": 33,
+      "achievements": [
+        {
+          "apiName": "CROWNS_EARNED_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "LEVELS_PLAYED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TROPHIES_EARNED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "STARS_EARNED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EXPERIENCE_EARNED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "SKINS_UNLOCKED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "EMOTES_UNLOCKED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ANIMATIONS_UNLOCKED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "FOOTSTEPS_UNLOCKED",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "CHANGING_COLOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CROWNS_EARNED_5",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ADVANCE_BOT_BASH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_PAINT_SPLASH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_BLOCK_DASH",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ADVANCE_JUNGLE_ROLL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_ROCKET_RUMBLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_LOST_TEMPLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_LASER_TRACER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_SUPER_SLIDE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_SPACE_RACE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_LAVA_LAND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_BOMBARDMENT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_HONEY_DROP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_STUMBLE_SOCCER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_LAVA_RUSH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_FLOOR_FLIP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_OVER_AND_UNDER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_CANNON_CLIMB",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ADVANCE_PIVOT_PUSH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_HUMBLE_STUMBLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_ICY_HEIGHTS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_SPIN_GO_ROUND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ADVANCE_TILE_FALL",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "LEVELS_ADVANCED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPINS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EMOTES_USED",
+          "desbloqueada": true
+        }
+      ]
     },
     "1721470": {
       "nome": "Poppy Playtime",
       "desbloqueadas": 0,
       "total": 100,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "CH1_YOUR_FRIEND_HUGGY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_USE_RESPONSIBLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_MADE_A_FRIEND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_NARROW_ESCAPE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_TIME_TO_PLAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_DISMEMBERED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TAKING_CHARGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MUSICAL_MEMORY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHACK_A_WUGGY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_STATUES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHAT_HAVE_YOU_DONE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_ESCAPE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MEMORY_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SHOT_IN_THE_DARK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_ABRIDGED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AHEAD_OF_SCHEDULE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_UNDEFEATED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AVID_READER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_DAISY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TRAIN_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_GREEN_HAND_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BUNZO_BUNNY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_KISSY_MISSY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_PJ_PUG_A_PILLAR_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BARRY_CART_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MOMMY_LONG_LEGS_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_CLAW_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SWEET_REVENGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BAD_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TALK_TO_THE_HAND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_THE_SCARIEST_DINOSAUR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SUGAR_RUSH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BAD_HIDING_SPOT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_IS_SHE_GONE_YET",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_YOURE_FIRED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHISTLEBLOWER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WELCOME_TO_PLAYCARE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WELL_ARMED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_BAD_DREAM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_CLASS_DISMISSED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_LAST_OF_THE_SMILING_CRITTERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_REMEMBER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_THE_NIGHTMARE_ENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_DELVING_DEEPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_EXPERT_NAVIGATOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SNEAK_ATTACK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_QUICK_LEARNER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_ECO_FRIENDLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SCREAMING_CRITTERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_THRILL_SEEKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SELF_RESTRAINT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_POPPYS_ANGEL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_STUDIOUS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_TIGHT_SQUEEZE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_HURRY_UP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SLEEP_WELL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_AIRTIME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_MEMORY_LANE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SPEED_DEMON",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_STOP_HITTING_YOURSELF",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_BYE_KISSY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WORSHIP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_EXTERMINATOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_LIONS_DEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_PREDATION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_CANT_CATCH_ME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_DONT_LOSE_IT_THIS_TIME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SANCTUARY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HOOK_LION_AND_SINKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AN_APPLE_A_DAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SAVIOR_OF_SAFE_HAVEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_COLD_BLOODED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_START_RUNNING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_UNTOUCHABLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_YOU_CAN_RUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HOLD_YOUR_BREATH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_PIPING_HOTSHOT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_EFFICNCY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MANE_ATTRACTION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_JOIN_THE_CHORUS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_TRIPLE_TIMES_THE_FUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_DEAR_DIARY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AVID_READER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_FEARLESS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SELF_RESTRAINT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_ACCESS_DENIED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_D_O_E_Y",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_PERSISTENT_PETS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_RESCUE_MISSION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HAT_TRICK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MOMENT_OF_SILENCE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_BOO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_EAVESDROPPING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MUSCLE_MEMORY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HEART_OF_GOLD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_UNCOVERING_THE_PAST",
+          "desbloqueada": false
+        }
+      ]
     },
     "2281730": {
       "nome": "Combat Master",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "2305790": {
       "nome": "1v1.LOL",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "2551020": {
       "nome": "One-armed robber",
       "desbloqueadas": 4,
       "total": 43,
-      "percentual": 9
+      "percentual": 9,
+      "achievements": [
+        {
+          "apiName": "Complete Heist Loud 10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Loud 25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Loud 50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 250 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 500 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 1000 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 250 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 1000 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 5000 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 1 million",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 5 millions",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 20 millions",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Time_To_Get_Out",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "First_Heist",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Pest_Control",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Bare_Minimum",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Workplace_Accident",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Counter_Sabotage",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Flashing_Lights",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Undercover",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Barbed_Feet",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "I_Want_It_All",
+          "desbloqueada": true
+        }
+      ]
     },
     "3643170": {
       "nome": "Roadside Research",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     }
   },
-  "76561199438642145": {},
   "76561199173115119": {
     "550": {
       "nome": "Left 4 Dead 2",
       "desbloqueadas": 2,
       "total": 101,
-      "percentual": 2
+      "percentual": 2,
+      "achievements": [
+        {
+          "apiName": "ACH_HONK_A_CLOWNS_NOSE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_INCENDIARY_CLOWN_POSSE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_MELEE_A_CHARGER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_SPITTER_FAST",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_FINISH_CAMPAIGN_MELEE_ONLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_EVERY_UNCOMMON_INFECTED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SAVE_PLAYER_FROM_JOCKEY_FAST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CUT_OFF_HEADS_MELEE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_LEAVE_SAFE_ROOM_DEFIB_TEAMMATE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BEAT_CAMPAIGNS_EXPERT_MODE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_EXPERT_REALISM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_FORM_PARTY_AND_WIN_4V4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_SUBMERGED_MUDMEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_CEDA_VIALS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_ZOMBIES_GRENADE_BLAST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_IGNITE_INFECTED_FIRE_AMMO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DEPLOY_AMMO_UPGRADE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_RES_SURVIVORS_WITH_DEFIB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SPEED_REVIVE_WITH_ADRENALINE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_INFECTED_WITH_CHAINSAW",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BILE_A_TANK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_WITH_EVERY_MELEE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_TANK_MELEE_ONLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BRIDGE_TIMED_RUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_MALL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_ROAD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_SWAMP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_TOWN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_BRIDGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_IMPOUND_LOT_NO_ALARMS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GNOME_RESCUE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_WITCH_TOWN_NO_WITCH_KILLS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_AIRLINE_FINALE_NO_DAMAGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_JOCKEY_LONG_RIDE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_JOCKEY_TWO_PLAYERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_JOCKEY_INTO_ACID",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_SPIT_ON_ENEMY_TEAM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_SPIT_ON_SMOKERED_PLAYER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_BOWL_ENEMY_TEAM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_CHARGER_GROUND_SMASH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_CHARGER_LONG_CARRY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_GET_MEDAL_MELEE_ONLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_WIN_A_GAME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_COLLECT_CAN_GRIND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_COLLECT_ALL_CANS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_SHUT_OUT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STRONGMAN_GAME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_MAKE_SURVIVOR_DROP_CAN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_CAN_DROP_GRIND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STASH_WHACKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_THE_PASSING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_CHARGE_THROUGH_CHAIRS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILLS_WITH_M60",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_FALLEN_SURVIVOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COMPLETE_CHALLENGE_MODES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HEADS_WITH_GOLF_CLUB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HEAR_BALLAD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_TANK_L4D1_ONLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_OPEN_FOOT_LOCKERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SCAVENGE_PLAY_C6_FINALE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COMPLETE_THE_SACRIFICE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SACRIFICE_BILL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_SPECIAL_WITH_BARREL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_RUN_ALL_GENERATORS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_PREVENT_SACRIFICE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_COLD_STREAM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_COMPLETE_DEAD_AIR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_HOLIDAY_GIFTS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HELP_FREE_PLAYER_SURVIVE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HELP_FREE_CHRISTMAS_PLAYER_SURVIVE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_BRONZE_MEDAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_SILVER_MEDAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_GOLD_MEDAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_LIGHTHOUSE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_LIGHTHOUSE_EXPERT_REALISM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_GOLDEN_CROWBARS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_REVIVE_WITH_ACTIVE_TANK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_SPIT_ON_CHARGED_PLAYER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_SPIT_ON_POUNCED_PLAYER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_SPIT_ON_GAS_CANS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_CHARGER_INSTANT_KILL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VS_BILE_PLAYER_NO_LINE_OF_SIGHT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_RESCUE_X_PLAYERS_TOGETHER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FREE_SELF_FROM_SMOKER_WITH_MELEE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_LEAPING_HUNTER_WITH_SHOTGUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DESTROY_TANK_ROCK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ONE_SHOT_KILL_WITCH_BRIDE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CAUSE_X_POUNCE_DAMAGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_X_JOCKEYS_WITH_MELEE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_VERSUS_X_MINUTES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_X_INFECTED_LIFETIME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ESCAPE_MALL_FINALE_NO_TANKS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIND_LIGHTHOUSE_HIDDEN_ROOM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EARN_ALL_BRONZE_MEDALS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EARN_ALL_SILVER_MEDALS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EARN_ALL_GOLD_MEDALS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVAL_X_MINUTES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_WITCH_MELEE_ONLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CONCERT_FINALE_DONT_LEAVE_STAGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_LAST_STAND_TIMED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GLOBAL_GNOME_ALONE",
+          "desbloqueada": true
+        }
+      ]
     },
     "730": {
       "nome": "Counter-Strike 2",
       "desbloqueadas": 1,
       "total": 1,
-      "percentual": 100
+      "percentual": 100,
+      "achievements": [
+        {
+          "apiName": "PLAY_CS2",
+          "desbloqueada": true
+        }
+      ]
     },
     "108600": {
       "nome": "Project Zomboid",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "221100": {
       "nome": "DayZ",
       "desbloqueadas": 1,
       "total": 13,
-      "percentual": 8
+      "percentual": 8,
+      "achievements": [
+        {
+          "apiName": "ACH_BodilyNeeds",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_Geared",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ActOfMercy",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_FieldCook",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ImTheFirestarter",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_Babyface",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_NaturalInstincts",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_Marksman",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_Pacify",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HealTheWorld",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_YouHaveTheRight",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CloseAndPersonal",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_Lobotomy",
+          "desbloqueada": false
+        }
+      ]
     },
     "224260": {
       "nome": "No More Room in Hell",
       "desbloqueadas": 0,
       "total": 115,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "KILLS_DEER_HUNTER_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_500A_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_870_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_1911_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_CZ858_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_FLARE_GUN_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_M16A4_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_M92FS_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MAC10_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MKIII_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MP5A3_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SAKO85_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SKS_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SUPERX3_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SV10_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SW686_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_1892_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_BROADWAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_CABIN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_CHINATOWN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_FAVELA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_FLOODED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ISOLATED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_NORTHWAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_NOTLD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_RANSACK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_AXE_FIRE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_HAMMER_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_CHAINSAW_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_CROWBAR_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_HATCHET_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_KNIFE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_LEADPIPE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MAGLITE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SPADE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_WELDER_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_ANY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "HEADSHOTS_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BAYONET_10_IN_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_EXTINGUISHER_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_WRENCH_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_SLEDGEHAMMER_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_BAT_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_GRENADE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CHAINSAW_30_IN_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PLATINUM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PACIFIST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SURVIVAL_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_ALL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_BROADWAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_CHINATOWN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_CABIN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ROBIN_HOOD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PINCUSHION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "HYPOCHONDRIAC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILL_INFECTED_SURVIVOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AMMO_CHECK_OCD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "JOIN_OFFICIAL_GROUP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_FISTS_1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PACIFIST_BIG_THREE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MACHETE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_TNT_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_MOLOTOV_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_GLOCK_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_1022_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_SILENCE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_TOXTETH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_LAKESIDE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_JAE700_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_FUBAR_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_ETOOL_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_CAMPBLOOD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_JUNCTION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_JUNCTION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_CLEOPAS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_BROOKLYN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_FNFAL_500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "HEAL_SAFE_ZONES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILL_ZEDS_WITH_FRIENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SAVE_GRABBED_TEAMMATE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EARN_TOKEN_WHILE_INFECTED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILL_WATERMELON_WITH_BOW",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILL_YOURSELF",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TWO_KILLS_1_BULLET_SAKO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TWO_KILLS_1_BULLET_JAE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SUICIDE_EXPLOSIVE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ALL_OR_NONE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NO_MAN_LEFT_BEHIND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ZEPHYR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_MIDWEST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_FEMA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ARPLEY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ARMY_OF_THE_DEAD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_BROADWAY2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_SUZHOU",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NIGHTMARE_OBJECTIVE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NIGHTMARE_SURVIVAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_ABRASIVESAW_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_PICKAXE_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_BROOKLYN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_CLEOPAS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KILLS_CLEAVER_250",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_BOARDWALK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_CAMILLA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_QUARANTINE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_SHELTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_UNDERGROUND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ANXIETY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SPEED_RUN_BOARDWALK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_DRUGSTORE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ROCKPIT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MELON_FELON",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_ASYLUM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_LAUNDRY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MAP_COMPLETE_SHORELINE",
+          "desbloqueada": false
+        }
+      ]
     },
     "239140": {
       "nome": "Dying Light",
       "desbloqueadas": 19,
       "total": 78,
-      "percentual": 24
+      "percentual": 24,
+      "achievements": [
+        {
+          "apiName": "ACH_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_2",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_3",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_4",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_5",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_6",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_11",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_18",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_21",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_22",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_23",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_24",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_26",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_27",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_28",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_29",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_30",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_31",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_32",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_33",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_34",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_36",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_37",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_38",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_39",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_40",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_41",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_42",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_43",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_44",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_45",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_46",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_47",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_48",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_49",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_51",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_52",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_53",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_54",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_55",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_56",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_57",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_58",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_59",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_60",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_61",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_62",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_63",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_64",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_65",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_66",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_67",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_68",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_70",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_71",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_72",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_73",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_74",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_75",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_76",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_77",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_78",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_79",
+          "desbloqueada": false
+        }
+      ]
     },
     "242760": {
       "nome": "The Forest",
       "desbloqueadas": 15,
       "total": 45,
-      "percentual": 33
+      "percentual": 33,
+      "achievements": [
+        {
+          "apiName": "ACH_MINOR_CANNIBALISM",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_MAJOR_CANNIBALISM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BE_NICE",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_BE_EXTREMELY_NICE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CRAFTY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BAD_FATHER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_TROPHY_HUNTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GARDENER",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_VEGAN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_NATUROPATH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_5_STAR_HOTEL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SPELUNKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIRST_RESPONDER",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_MEDIC",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_BUILD_GAZEBO",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_BOY_SCOOT",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_GROUP_SLEEP",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_KILL_DOWNED_ENEMY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_LONG_WALL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CHOP_BODIES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STEALTH_ARMOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FISH_DYNAMITED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_THE_FOREST",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_DRINK_COFFEE",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_GROSS_DRINK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_CANNIBALS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SPRINKLERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIND_PASSENGERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VENDING_MACHINES",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_KILL_SHARK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_BUNNY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_CASSETTES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DAYS_SURVIVED_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_EAT_ALL_MUSHROOMS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DAYS_SURVIVED_5",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_SHOOT_BIRDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_MARATHON_STEPS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_USED_BOMBS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_REPAIR_SHELTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_ROBOT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CHOP_TREES_100",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_CHOP_TREES_1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DAYS_WITHOUT_KILLS",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_TREES_DYNAMITED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_TRAP_FISH",
+          "desbloqueada": false
+        }
+      ]
     },
     "291550": {
       "nome": "Brawlhalla",
       "desbloqueadas": 1,
       "total": 65,
-      "percentual": 2
+      "percentual": 2,
+      "achievements": [
+        {
+          "apiName": "ACH_1_GoldEarnedBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_2_GoldEarnedSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_3_GoldEarnedGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_4_AccountLevelBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_5_AccountLevelBronze2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_6_AccountLevelSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_7_AccountLevelGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_8_HammerHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_9_SwordHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_10_PistolHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_11_LanceHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_12_SpearHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_13_KatarsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_14_AxeHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_15_BowHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_16_FistsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_17_ScytheHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_21_PlayMatchmakingBronze",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_19_PlayMatchmakingSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_18_PlayFFA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_20_PlayRanked",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_22_Play2v2Unranked",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_23_Play2v2Ranked",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_24_PlayBotW",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_25_KillBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_26_KillSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_27_KillGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_28_Wins1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_29_Wins2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_30_Wins3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_31_2HeroesLevel5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_32_5HeroesLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_33_10HeroesLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_34_DoubleKill25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_35_KillThrowsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_36_3Stock",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_37_GavityCancelSigKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_38_SayGGBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_39_RedLastStockKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_40_CannonHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_41_OrbHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_42_GreatswordHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_43_3HeroesLevel25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_44_5HeroesLevel50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_45_SlideChargeSigKillsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_46_BouncyBombMultiHit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_47_SixKOsInTeamGame",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_48_DashJumpGroundPoundKO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_49_HordeSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_50_BootsHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_51_SpikeBallQuadHit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_52_CatchBombsBronze",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_53_SixSigsSingleMatch",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_54_BuySkyforged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_55_BuyGoldforged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_56_1HeroLevel40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_57_AccountLevelExpansion2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_58_ChakramHeroLevel10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_59_LoseRematchSwitchWin",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_60_WinRematchSeries10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_61_GavityCancelLightKillsSilver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_62_Ranked1v1LightOnlyKO10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_63_TripleKill5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_64_TripleHitSig5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_65_Level25Weapons8",
+          "desbloqueada": false
+        }
+      ]
     },
     "304930": {
       "nome": "Unturned",
       "desbloqueadas": 1,
       "total": 95,
-      "percentual": 1
+      "percentual": 1,
+      "achievements": [
+        {
+          "apiName": "PEI",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Bridge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Mastermind",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Offense",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Defense",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Support",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Experienced",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hoarder",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Outdoors",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Psychopath",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Murderer",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Survivor",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Unturned",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hardened",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Forged",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Scavenger",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Camper",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Schooled",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Berries",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Accident_Prone",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Wheel",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Yukon",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Washington",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Educated",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fishing",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Crafting",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Farming",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Headshot",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Sharpshooter",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hiking",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Roadtrip",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Champion",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fortified",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Russia",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Soulcrystal",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Paragon",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Villain",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Mk2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Quest",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ensign",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Lieutenant",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Major",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Hawaii",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Boss_Magma",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Peaks",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Zweihander",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_Squeek",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_FelineFriends",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_DinosaurJuice",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_HomeDecor",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_AlwaysWatching",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_FamiliarFaces",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ireland_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Elver_FinalBoss",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Elver_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Delivery",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Snowman",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Cook",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Festive2021_Power",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_Finale",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Arid_RPG",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_EscapingOutlands",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kuwait_DunemansPromise",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Frost_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Frost_Expedition",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_ADayInTheSun",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Memory",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_TacoWaffle",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Buak_Anomaly",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_BombsAway",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_ForcefulAcquisition",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_DeadSilent",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PBS_PoorInvestment",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_Bookworm",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_BrokenChains",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_ChaosTheorem",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_PermanentTourist",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Rio_SproutUp",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RioRemastered_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Covert",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Dare",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Concrete",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LS_Widowmaker",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_Visited",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_ZoneTrekker",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_DiplomaticImmunity",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_EmployeeOfTheCentury",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_HeartOfGold",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_AnOldWound",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Cali2_VoidCave",
+          "desbloqueada": false
+        }
+      ]
     },
     "359550": {
       "nome": "Tom Clancy's Rainbow Six Siege",
       "desbloqueadas": 0,
       "total": 48,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "RB6X_Ach_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_11",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_18",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_21",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_22",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_23",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_24",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_26",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_27",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_28",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_29",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_30",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_31",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_32",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_33",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_34",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_36",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_37",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_38",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_39",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_41",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_42",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_43",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_44",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_45",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_46",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_47",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RB6X_Ach_48",
+          "desbloqueada": false
+        }
+      ]
     },
     "380600": {
       "nome": "Fishing Planet",
       "desbloqueadas": 0,
       "total": 17,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "ACH_F2P_TIGHT_LINES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_BASS_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_TROUT_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_PIKE_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_PANFISH_OVERLORD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_CATFISH_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_WALLEYE_CHIEF",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_SALMON_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_CARP_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_CRAPPIE_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_PARTAKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_YOURE_IN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_QUALIFIED_WINNER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_ALMOST_THERE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_WINNING_STREAK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_TROPHY_COLLECTOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_F2P_UNIQUE_GAINER",
+          "desbloqueada": false
+        }
+      ]
     },
     "431960": {
       "nome": "Wallpaper Engine",
       "desbloqueadas": 1,
       "total": 17,
-      "percentual": 6
+      "percentual": 6,
+      "achievements": [
+        {
+          "apiName": "POST_SCENE_WALLPAPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "POST_VIDEO_WALLPAPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "POST_WEB_WALLPAPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "POST_APP_WALLPAPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "USE_TEMPLATE_2D",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "USE_TEMPLATE_3D",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SCREENSHOT_WITH_WORKSHOP_WALLPAPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SUBSCRIBE_10_WALLPAPERS",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "FAVORITE_10_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PEST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KON_CODE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SUBSCRIBE_25_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SUBSCRIBE_50_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SUBSCRIBE_100_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "FAVORITE_25_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "FAVORITE_50_WALLPAPERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "FAVORITE_100_WALLPAPERS",
+          "desbloqueada": false
+        }
+      ]
     },
     "438100": {
       "nome": "VRChat",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "460930": {
       "nome": "Tom Clancy's Ghost Recon® Wildlands",
       "desbloqueadas": 0,
       "total": 57,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "GRWildlands_Ach_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_11",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_18",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_21",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_22",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_23",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_24",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_26",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_27",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_28",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_29",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_30",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_31",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_32",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_33",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_34",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_36",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_37",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_38",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_39",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_41",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_42",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_43",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_44",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_45",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_46",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_47",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_48",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_49",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_51",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_52",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_53",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_54",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_55",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_56",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GRWildlands_Ach_57",
+          "desbloqueada": false
+        }
+      ]
     },
     "534380": {
       "nome": "Dying Light 2: Reloaded Edition",
       "desbloqueadas": 4,
       "total": 65,
-      "percentual": 6
+      "percentual": 6,
+      "achievements": [
+        {
+          "apiName": "ACH_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_2",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_3",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_4",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_7",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_8",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_9",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_11",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_12",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_14",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_15",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_16",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_17",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_18",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_19",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_20",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_21",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_22",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_23",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_24",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_26",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_27",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_28",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_29",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_30",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_31",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_32",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_33",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_34",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_36",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_37",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_38",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_39",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_40",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_41",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_42",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_43",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_44",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_45",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_46",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_47",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_48",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_49",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_51",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_52",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_53",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_54",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_55",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_56",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_57",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_58",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_59",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_60",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_61",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_62",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_63",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_64",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_65",
+          "desbloqueada": false
+        }
+      ]
     },
     "623990": {
       "nome": "Tom Clancy's Rainbow Six Siege - Test Server",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "632810": {
       "nome": "Soundpad Demo",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     },
     "815370": {
       "nome": "Green Hell",
       "desbloqueadas": 4,
       "total": 68,
-      "percentual": 6
+      "percentual": 6,
+      "achievements": [
+        {
+          "apiName": "ACH_TUTORIAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_AYAHUASKA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BAD_ENDING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GOOD_ENDING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GREEDY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ENDING_GREENHELL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_TRAVEL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_START_FIRE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_WELCOME",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_SURVIVE_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_JUST_DIE",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_CANIBAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_TRIBE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_1ST_TOOL",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_VEGAN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_PACIFIST",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_WILLSON",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_MAX_SKILL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_IRONMAN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SAVEGAME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIND_STORYCAVE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SANITY_TRIBE",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_LEECHES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_MAGGOT_WOUND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HOME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CURE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SAFE_WATER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_INSOMIA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIREPLACE_GOING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_TURTLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FISHING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KING_OF_THE_JUNGLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SNOWMAN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ALL_FIRE_TOOLS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CATCH_AT_ONCE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ALL_SICKNESS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ALL_CHALLENGES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FARMER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FULL_MAP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_ALL_READABLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GAIN_REPUTATION_800_PLANTING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GAIN_REPUTATION_800_HUNTING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_GAIN_REPUTATION_800_FISHING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BRING_9_KIDS_BACK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HEAL_10_TRIBES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BURN_10_CORPSES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_BURN_10_TRASHES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_HELP_5_FISHERMEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_REBUILD_10_TOTEMS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FREE_9_WOMEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FIND_5_MAPS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COMPLETE_SOA3_STORY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RAPORT_BACK_TO_THE_BASE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_MUAGI_TRIAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_HABBAKU_TRIAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_UNGARACA_TRIAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "REACH_YABAHUACA_VILLAGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PASS_YABAHUACA_TRIAL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "DISCOVER_VILLAGE_MUAGI",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "DISCOVER_VILLAGE_HABBAKU",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "DISCOVER_VILLAGE_UNGARACA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_ALL_MUAGI_LEGENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_ALL_UNGARACA_LEGENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_ALL_HABBAKU_LEGENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "COMPLETE_ALL_SOA_ACHIEVEMENTS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_NEW_FRIEND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EMOTIONAL_SUPPORT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CIRCLE_OF_LIFE",
+          "desbloqueada": false
+        }
+      ]
     },
     "1070580": {
       "nome": "Drift86",
       "desbloqueadas": 0,
       "total": 41,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "Play_SP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Play_Multi",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TDS_1M",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TDS_5M",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TDS_10M",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TDS_100M",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BDS_50K",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BDS_100K",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BDS_500K",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BDS_1M",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TRT_1H",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TRT_10H",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TRT_100H",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CreateRoom",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PG86_Mk3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BMGv35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MuscleCar_1970",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SunLineGTE 1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AE86tunning",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RX71",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "X13",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Supra",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EvoX",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CRX",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EG6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Clio V6",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SunLineGTE35",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Lado1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EvoVIII",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Sub1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SunLine2000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GT86",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SupraNew",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GTR32 1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NSX 2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MX5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "S13 2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RX7FC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MR2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GTR31MOYO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "F40",
+          "desbloqueada": false
+        }
+      ]
     },
     "1304930": {
       "nome": "The Outlast Trials",
       "desbloqueadas": 3,
       "total": 27,
-      "percentual": 11
+      "percentual": 11,
+      "achievements": [
+        {
+          "apiName": "achievement_big_saver",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_sleight_of_hand",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_mechanophiliac",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_together_we_are_stong",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_crowd_control",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_hypochondriac",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_no_time_to_sleep",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_gotta_go_fast",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_breathe_in",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_power_surge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_bullseye",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_major_league_player",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_bamboozle",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_chicken_shit",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "achievement_trigger_happy",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_anger_issues",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_determined",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_boost_me_up",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_clear_vision",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_high_as_a_kite",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_step_on_me_daddy",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_hemophiliac",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_hoarder",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_drift_king",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "achievement_marathonian",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "achievement_hunchback",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "achievement_cant_touch_this",
+          "desbloqueada": false
+        }
+      ]
     },
     "1326470": {
       "nome": "Sons Of The Forest",
       "desbloqueadas": 8,
       "total": 32,
-      "percentual": 25
+      "percentual": 25,
+      "achievements": [
+        {
+          "apiName": "ACH_THIS_CANT_BE_HEALTHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_WEAR_TECH_ARMOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_WATCHES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_COLLECT_MONEY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EAT_ALL_EDIBLES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_SURVIVE_DAY_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_SURVIVE_DAY_10",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_SURVIVE_DAY_25",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_SURVIVE_DAY_50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_TRUSTED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_OWN_ALL_CLOTHING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STRUCTURE_50_LOGS",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_STRUCTURE_100_LOGS",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_STRUCTURE_500_LOGS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STRUCTURE_1000_LOGS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILL_SLUGGIE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KICKED_BY_HEAVY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VIRGINIA_GPS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_CRAFT_ALL_WEAPONS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_EAT_RAW_FISH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DIG_HOLES_100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DIG_HOLES_1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_KILLED_BY_SHARK",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_PRINT_ALL_ITEMS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_VIRGINIA_MAX_SENTIMENT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_LEAVE_THE_ISLAND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_STAY_BEHIND",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_FINISH_STORY_WITH_ALL_NPCS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_PLATED_WEAPONS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_DISCOVERED_BLUEPRINTS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ACH_FOUND_FOOTAGE",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "ACH_NOTE_PAGES",
+          "desbloqueada": false
+        }
+      ]
     },
     "1657090": {
       "nome": "MiniRoyale",
       "desbloqueadas": 7,
       "total": 31,
-      "percentual": 23
+      "percentual": 23,
+      "achievements": [
+        {
+          "apiName": "wins_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "kills_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "kills_100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "top10_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "winsNoDmgTaken_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sniperLongRangeKills_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "sniperLongRangeKills_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gamesWith10Kills_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "winsWithoutKills_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "gamesWith3ExplosiveKills_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "flyingkills_5",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "revives_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "revives_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "winsUnder10Mins_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "mru2_wins_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "highestKillsWins_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "firstKills_1",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "gamesWith10HeadshotKills_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gamesCollected100Coins_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gamesWith120SecondsInZone_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "top10_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "kar98_wkills_100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "gamesKickedOutOfBlimp_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "maxEnergyReached_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "italianshotgun_wkills_100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "kills_1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "silencedKills_25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "lastBulletKills_1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ziplineDistanceTravelled_10000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "meleeKills_10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ak47_wkills_100",
+          "desbloqueada": false
+        }
+      ]
     },
     "1721470": {
       "nome": "Poppy Playtime",
       "desbloqueadas": 0,
       "total": 100,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "CH1_YOUR_FRIEND_HUGGY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_USE_RESPONSIBLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_MADE_A_FRIEND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_NARROW_ESCAPE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_TIME_TO_PLAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH1_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_DISMEMBERED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TAKING_CHARGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MUSICAL_MEMORY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHACK_A_WUGGY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_STATUES",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHAT_HAVE_YOU_DONE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_ESCAPE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MEMORY_MASTER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SHOT_IN_THE_DARK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_ABRIDGED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AHEAD_OF_SCHEDULE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_UNDEFEATED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AVID_READER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_DAISY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TRAIN_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_GREEN_HAND_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BUNZO_BUNNY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_KISSY_MISSY_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_PJ_PUG_A_PILLAR_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BARRY_CART_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_MOMMY_LONG_LEGS_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_CLAW_TROPHY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SWEET_REVENGE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BAD_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_TALK_TO_THE_HAND",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_THE_SCARIEST_DINOSAUR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_SUGAR_RUSH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_BAD_HIDING_SPOT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_IS_SHE_GONE_YET",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_YOURE_FIRED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH2_WHISTLEBLOWER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WELCOME_TO_PLAYCARE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WELL_ARMED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_BAD_DREAM",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_CLASS_DISMISSED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_LAST_OF_THE_SMILING_CRITTERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_REMEMBER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_THE_NIGHTMARE_ENDS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_DELVING_DEEPER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_EXPERT_NAVIGATOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SNEAK_ATTACK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_QUICK_LEARNER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_ECO_FRIENDLY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SCREAMING_CRITTERS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_THRILL_SEEKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SELF_RESTRAINT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_POPPYS_ANGEL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_STUDIOUS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_TIGHT_SQUEEZE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_HURRY_UP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SLEEP_WELL",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_AIRTIME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_MEMORY_LANE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_SPEED_DEMON",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_STOP_HITTING_YOURSELF",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_BYE_KISSY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_WORSHIP",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_EXTERMINATOR",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_LIONS_DEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_PREDATION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH3_CANT_CATCH_ME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_DONT_LOSE_IT_THIS_TIME",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SANCTUARY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HOOK_LION_AND_SINKER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AN_APPLE_A_DAY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SAVIOR_OF_SAFE_HAVEN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_COLD_BLOODED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_START_RUNNING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_UNTOUCHABLE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_YOU_CAN_RUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HOLD_YOUR_BREATH",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_PIPING_HOTSHOT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_EFFICNCY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MANE_ATTRACTION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_JOIN_THE_CHORUS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_TRIPLE_TIMES_THE_FUN",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_DEAR_DIARY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AVID_READER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_AVID_LISTENER",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_FEARLESS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_SELF_RESTRAINT",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_ACCESS_DENIED",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_D_O_E_Y",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_PERSISTENT_PETS",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_RESCUE_MISSION",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HAT_TRICK",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MOMENT_OF_SILENCE",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_BOO",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_EAVESDROPPING",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_MUSCLE_MEMORY",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_HEART_OF_GOLD",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CH4_UNCOVERING_THE_PAST",
+          "desbloqueada": false
+        }
+      ]
     },
     "1977530": {
       "nome": "One-armed cook",
       "desbloqueadas": 0,
       "total": 22,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "Perfect_dishes_served1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Perfect_dishes_served2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Perfect_dishes_served3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fires_put_out1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fires_put_out2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Fires_put_out3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Foods_cooked1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Foods_cooked2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Foods_cooked3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Dishes_washed1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Dishes_washed2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Dishes_washed3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Bad_dishes_served1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Bad_dishes_served2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Bad_dishes_served3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Games_won1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Games_won2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Games_won3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ingredients_used1",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ingredients_used2",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Ingredients_used3",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "20_ingredient",
+          "desbloqueada": false
+        }
+      ]
     },
     "2551020": {
       "nome": "One-armed robber",
       "desbloqueadas": 5,
       "total": 43,
-      "percentual": 12
+      "percentual": 12,
+      "achievements": [
+        {
+          "apiName": "Complete Heist Loud 10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Loud 25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Loud 50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 10",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 25",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Complete Heist Stealth 50",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 blinding shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 250 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 500 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 1000 guards",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 interceptor units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 juggernaut units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 250 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 1000 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 5000 Police",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 powerbox defuser units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 50 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 100 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Kill 300 shield units",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 100",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 500",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Locks picked 1000",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 1 million",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 5 millions",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Steal 20 millions",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Time_To_Get_Out",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "First_Heist",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Pest_Control",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Bare_Minimum",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Workplace_Accident",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Counter_Sabotage",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Flashing_Lights",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "Undercover",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "Barbed_Feet",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "I_Want_It_All",
+          "desbloqueada": false
+        }
+      ]
     },
     "2709570": {
       "nome": "Supermarket Together",
       "desbloqueadas": 0,
       "total": 54,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": [
+        {
+          "apiName": "0_Millionaire",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "1_RestockerA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "2_RestockerB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "3_RestockerC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "4_RecyclerA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "5_RecyclerB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "6_RecyclerC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "7_CustomersA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "8_CustomersB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "9_CustomersC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "10_CashierA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "11_CashierB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "12_CashierC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "13_CleanerA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "14_CleanerB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "15_CleanerC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "16_CorrectChange",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "17_DutyGuard",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "18_CollectProducts",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "19_CatPetting",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "20_GoodEarnings",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "21_CheckoutMoney",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "22_DecorationsA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "23_DecorationsB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "24_DecorationsC",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "25_SurveillanceA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "26_SurveillanceB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "27_Demolition",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "28_Consequences",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "29_SalesA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "30_SalesB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "31_CardboardBaler",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "32_Bales",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "33_HiddenCat",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "34_CannotResist",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "35_Taxes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "36_Responsible",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "37_OnlineServiceA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "38_OnlineServiceB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "39_OnlineBenefit",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "40_RepairA",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "41_RepairB",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "42_DearCustomers",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "43_FireExtinguisher",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "44_BystanderConvert",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "45_SuperFood",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "46_Manufacturing",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "47_MRecipes",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "48_DemolitionPlaza",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "49_HiddenCatPlaza",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "50_EnigmaCube",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "51_SodiumOverdose",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "52_SixAtATime",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "53_MiniVacuum",
+          "desbloqueada": false
+        }
+      ]
     },
     "3376250": {
       "nome": "Nine-Ball Roulette",
       "desbloqueadas": 2,
       "total": 16,
-      "percentual": 13
+      "percentual": 13,
+      "achievements": [
+        {
+          "apiName": "一点就进",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "易如反掌",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "游戏密码",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "冲球的神",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "命悬一线",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "小准仙",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "心流",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "准神",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "桌坛新星",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "球室持杆者",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "桌坛新秀",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "桌球教父",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "麻瓜",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "神魔恋",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "垫底小王子",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "中山桥的噩梦",
+          "desbloqueada": false
+        }
+      ]
     },
     "3527290": {
       "nome": "PEAK",
       "desbloqueadas": 4,
       "total": 64,
-      "percentual": 6
+      "percentual": 6,
+      "achievements": [
+        {
+          "apiName": "PeakBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CookingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "KnotTyingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BeachcomberBadge",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "TriedYourBestBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TrailblazerBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "HappyCamperBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AlpinistBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "VolcanologyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BoulderingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ToxicologyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ForagingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EsotericaBadge",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "LoneWolfBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ClutchBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BalloonBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LeaveNoTraceBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SpeedClimberBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BingBongBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NaturalistBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "GourmandBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MycologyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "FirstAidBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "SurvivalistBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AnimalSerenadingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ArboristBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MentorshipBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EmergencyPreparednessBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AscenderBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "PlundererBadge",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "BookwormBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "EnduranceBadge",
+          "desbloqueada": true
+        },
+        {
+          "apiName": "NomadBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "UltimateBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CoolCucumberBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "NeedlepointBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AeronauticsBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TwentyFourKaratBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ResourcefulnessBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "DaredevilBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MegaentomologyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AstronomyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BundledUpBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ForestryBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "TreadLightlyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "WebSecurityBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "UndeadEncounterBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AdvancedMycologyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "DisasterResponseBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CalciumIntakeBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CompetitiveEatingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "AppliedEsotericaBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MycoacrobaticsBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "CryptogastronomyBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "WandererBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "BellringerBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "WellRestedBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "JesterBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "HangGlidingBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "MedievalHistoryBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "LastResortBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ExorcistBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "ArcheryBadge",
+          "desbloqueada": false
+        },
+        {
+          "apiName": "RuleZeroBadge",
+          "desbloqueada": false
+        }
+      ]
     },
     "3643170": {
       "nome": "Roadside Research",
       "desbloqueadas": 0,
       "total": 0,
-      "percentual": 0
+      "percentual": 0,
+      "achievements": []
     }
   }
 }
