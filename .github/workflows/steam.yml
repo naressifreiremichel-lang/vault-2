@@ -37,11 +37,13 @@ jobs:
           STEAM_ID: ${{ secrets.STEAM_ID }}
         run: |
           node scripts/update-friends.js
-- name: Gerar friend-games.json
-  env:
-    STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-  run: |
-    node scripts/update-friend-games.js
+
+      - name: Gerar friend-games.json
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+        run: |
+          node scripts/update-friend-games.js
+
       - name: Commit
         run: |
           git config user.name "github-actions"
@@ -52,6 +54,7 @@ jobs:
           git add data/conquistas.json
           git add data/amigos.json
           git add data/friend-games.json
+
           if ! git diff --staged --quiet; then
             git commit -m "Atualizacao Steam"
             git push
