@@ -11,16 +11,16 @@ const appid =
 
 async function carregarJogo() {
 
-  const resposta =
+  const respostaJogos =
     await fetch(
       './data/friend-games.json'
     );
 
-  const dados =
-    await resposta.json();
+  const dadosJogos =
+    await respostaJogos.json();
 
   const jogos =
-    dados[steamid] || [];
+    dadosJogos[steamid] || [];
 
   const jogo =
     jogos.find(
@@ -77,6 +77,112 @@ async function carregarJogo() {
       "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
     )
     `;
+
+  carregarConquistas();
+
+}
+
+async function carregarConquistas() {
+
+  const resposta =
+    await fetch(
+      './data/friend-achievements.json'
+    );
+
+  const dados =
+    await resposta.json();
+
+  const jogo =
+    dados?.[steamid]?.[appid];
+
+  const container =
+    document.getElementById(
+      'conquistas'
+    );
+
+  if (!container)
+    return;
+
+  if (!jogo) {
+
+    container.innerHTML = `
+      <div class="stat">
+        Nenhuma conquista encontrada.
+      </div>
+    `;
+
+    return;
+
+  }
+
+  let html = `
+
+    <div class="stat">
+
+      <h2>🏆 Conquistas</h2>
+
+      <p>
+        ${jogo.desbloqueadas}
+        /
+        ${jogo.total}
+      </p>
+
+      <p>
+        ${jogo.percentual}%
+      </p>
+
+    </div>
+
+  `;
+
+  if (
+    jogo.achievements &&
+    jogo.achievements.length
+  ) {
+
+    html += `
+      <div class="games-grid">
+    `;
+
+    jogo.achievements.forEach(
+      conquista => {
+
+        html += `
+
+          <div class="game-card">
+
+            <div class="game-content">
+
+              <h3>
+                🏆
+                ${conquista.apiName}
+              </h3>
+
+              <p>
+                ${
+                  conquista.desbloqueada
+                    ? '✅ Desbloqueada'
+                    : '❌ Bloqueada'
+                }
+              </p>
+
+            </div>
+
+          </div>
+
+        `;
+
+      }
+    );
+
+    html += `
+      </div>
+    `;
+
+  }
+
+  container.innerHTML =
+    html;
 
 }
 
