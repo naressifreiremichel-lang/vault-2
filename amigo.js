@@ -8,11 +8,11 @@ const steamid =
 
 async function carregarAmigo() {
 
-  const resposta =
+  const respostaAmigos =
     await fetch('./data/amigos.json');
 
   const amigos =
-    await resposta.json();
+    await respostaAmigos.json();
 
   const amigo =
     amigos.find(
@@ -54,6 +54,82 @@ async function carregarAmigo() {
     'steamid'
   ).textContent =
     amigo.steamid;
+
+  const respostaJogos =
+    await fetch(
+      './data/friend-games.json'
+    );
+
+  const jogosPorAmigo =
+    await respostaJogos.json();
+
+  const jogos =
+    jogosPorAmigo[steamid] || [];
+
+  const biblioteca =
+    document.getElementById(
+      'biblioteca'
+    );
+
+  if (jogos.length === 0) {
+
+    biblioteca.innerHTML = `
+
+      <div class="stat">
+
+        Biblioteca privada
+        ou sem jogos visíveis.
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+  jogos.sort(
+    (a, b) =>
+      b.playtime_forever -
+      a.playtime_forever
+  );
+
+  biblioteca.innerHTML = '';
+
+  jogos.forEach(jogo => {
+
+    const horas =
+      Math.round(
+        jogo.playtime_forever / 60
+      );
+
+    biblioteca.innerHTML += `
+
+      <div class="game-card">
+
+        <img
+          class="game-banner"
+          src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+          alt="${jogo.name}"
+        >
+
+        <div class="game-content">
+
+          <h3 class="game-title">
+            ${jogo.name}
+          </h3>
+
+          <p class="game-hours">
+            ⏱️ ${horas} horas
+          </p>
+
+        </div>
+
+      </div>
+
+    `;
+
+  });
 
 }
 
