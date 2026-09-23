@@ -54,7 +54,35 @@ async function carregarAmigo() {
     'steamid'
   ).textContent =
     amigo.steamid;
+if (
+  amigo.nome ===
+  'Ovos Graudos'
+) {
 
+  document.getElementById(
+    'musicaAmigo'
+  ).innerHTML = `
+
+    <audio
+      controls
+      autoplay
+      loop
+      style="
+        width:100%;
+        margin-top:20px;
+      "
+    >
+
+      <source
+        src="audio/ovos-graudos.mp3"
+        type="audio/mpeg"
+      >
+
+    </audio>
+
+  `;
+
+}
   const respostaJogos =
     await fetch(
       './data/friend-games.json'
