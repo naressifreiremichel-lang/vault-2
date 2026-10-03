@@ -18,121 +18,121 @@ const appid =
 
 async function carregarJogo() {
 
-  const respostaJogos =
-    await fetch(
-      './data/friend-games.json'
-    );
+  try {
+
+    const respostaJogos =
+      await fetch(
+        './data/friend-games.json'
+      );
 
 
-  const dadosJogos =
-    await respostaJogos.json();
+    const dadosJogos =
+      await respostaJogos.json();
 
 
-  const jogos =
-    dadosJogos[steamid] || [];
+    const jogos =
+      dadosJogos[steamid] || [];
 
 
-  const jogo =
-    jogos.find(
-      j =>
-        String(j.appid) ===
-        String(appid)
-    );
+    const jogo =
+      jogos.find(
+        j =>
+          String(j.appid) ===
+          String(appid)
+      );
 
 
-  if (!jogo) {
+    if (!jogo) {
+
+      document.getElementById(
+        'nomeJogo'
+      ).textContent =
+        'Jogo não encontrado';
+
+      return;
+
+    }
+
+
+    /* =========================
+       HORAS E MINUTOS
+    ========================= */
+
+    const horas =
+      Math.floor(
+        jogo.playtime_forever / 60
+      );
+
+
+    const minutos =
+      jogo.playtime_forever % 60;
+
+
+    const tempoFormatado =
+      `${horas}h ${String(minutos).padStart(2, '0')}min`;
+
+
+    /* =========================
+       NOME DO JOGO
+    ========================= */
 
     document.getElementById(
       'nomeJogo'
     ).textContent =
-      'Jogo não encontrado';
-
-    return;
-
-  }
+      jogo.name;
 
 
-  /* =========================
-     HORAS E MINUTOS
-  ========================= */
+    document.getElementById(
+      'horas'
+    ).textContent =
+      `⏱️ ${tempoFormatado}`;
 
-  const horas =
-    Math.floor(
-      jogo.playtime_forever / 60
+
+    document.getElementById(
+      'horasTotal'
+    ).textContent =
+      tempoFormatado;
+
+
+    document.getElementById(
+      'appid'
+    ).textContent =
+      jogo.appid;
+
+
+    /* =========================
+       BANNER
+    ========================= */
+
+    document.getElementById(
+      'banner'
+    ).style.backgroundImage =
+      `
+      linear-gradient(
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.8)
+      ),
+      url(
+        "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
+      )
+      `;
+
+
+    /* =========================
+       CONQUISTAS
+    ========================= */
+
+    await carregarConquistas();
+
+
+  } catch (erro) {
+
+    console.error(
+      'Erro ao carregar jogo:',
+      erro
     );
 
-
-  const minutos =
-    jogo.playtime_forever % 60;
-
-
-  const tempoFormatado =
-    `${horas}h ${String(minutos).padStart(2, '0')}min`;
-
-
-  /* =========================
-     NOME
-  ========================= */
-
-  document.getElementById(
-    'nomeJogo'
-  ).textContent =
-    jogo.name;
-
-
-  /* =========================
-     TEMPO NO BANNER
-  ========================= */
-
-  document.getElementById(
-    'horas'
-  ).textContent =
-    `⏱️ ${tempoFormatado}`;
-
-
-  /* =========================
-     TEMPO TOTAL
-  ========================= */
-
-  document.getElementById(
-    'horasTotal'
-  ).textContent =
-    tempoFormatado;
-
-
-  /* =========================
-     APP ID
-  ========================= */
-
-  document.getElementById(
-    'appid'
-  ).textContent =
-    jogo.appid;
-
-
-  /* =========================
-     BANNER
-  ========================= */
-
-  document.getElementById(
-    'banner'
-  ).style.backgroundImage =
-    `
-    linear-gradient(
-      rgba(0,0,0,.3),
-      rgba(0,0,0,.8)
-    ),
-    url(
-      "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/${jogo.appid}/header.jpg"
-    )
-    `;
-
-
-  /* =========================
-     CONQUISTAS
-  ========================= */
-
-  carregarConquistas();
+  }
 
 }
 
@@ -166,9 +166,15 @@ async function carregarConquistas() {
 
 
     if (!container) {
+
       return;
+
     }
 
+
+    /* =========================
+       NENHUMA CONQUISTA
+    ========================= */
 
     if (!jogo) {
 
@@ -186,6 +192,10 @@ async function carregarConquistas() {
 
     }
 
+
+    /* =========================
+       RESUMO
+    ========================= */
 
     let html = `
 
@@ -215,13 +225,15 @@ async function carregarConquistas() {
     ========================= */
 
     if (
-      jogo.achievements &&
-      jogo.achievements.length
+      Array.isArray(
+        jogo.achievements
+      ) &&
+      jogo.achievements.length > 0
     ) {
 
       html += `
 
-        <div class="games-grid">
+        <div class="achievements-list">
 
       `;
 
@@ -229,27 +241,55 @@ async function carregarConquistas() {
       jogo.achievements.forEach(
         conquista => {
 
+
+          /*
+             Procura o nome da conquista
+             em vários campos possíveis.
+          */
+
+          const nome =
+            conquista.displayName ||
+            conquista.displayname ||
+            conquista.name ||
+            conquista.apiName ||
+            conquista.apiname ||
+            'Conquista sem nome';
+
+
+          /*
+             Verifica se foi desbloqueada.
+          */
+
+          const desbloqueada =
+            conquista.desbloqueada === true ||
+            conquista.desbloqueada === 1 ||
+            conquista.achieved === true ||
+            conquista.achieved === 1;
+
+
           html += `
 
-            <div class="game-card">
+            <div class="achievement-item">
 
-              <div class="game-content">
+              <div class="achievement-name">
 
-                <h3>
+                <span class="trofeu">
                   🏆
-                  ${conquista.apiName}
-                </h3>
+                </span>
 
-                <p>
+                <strong>
+                  ${nome}
+                </strong>
 
-                  ${
-                    conquista.desbloqueada
-                      ? '✅ Desbloqueada'
-                      : '❌ Bloqueada'
+              </div>
 
-                  }
+              <div class="achievement-status">
 
-                </p>
+                ${
+                  desbloqueada
+                    ? '✅ Desbloqueada'
+                    : '❌ Bloqueada'
+                }
 
               </div>
 
@@ -270,6 +310,10 @@ async function carregarConquistas() {
     }
 
 
+    /* =========================
+       MOSTRAR NA PÁGINA
+    ========================= */
+
     container.innerHTML =
       html;
 
@@ -280,6 +324,27 @@ async function carregarConquistas() {
       'Erro ao carregar conquistas:',
       erro
     );
+
+
+    const container =
+      document.getElementById(
+        'conquistas'
+      );
+
+
+    if (container) {
+
+      container.innerHTML = `
+
+        <div class="stat">
+
+          Erro ao carregar conquistas.
+
+        </div>
+
+      `;
+
+    }
 
   }
 
