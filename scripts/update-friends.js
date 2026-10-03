@@ -10,13 +10,20 @@ async function main() {
     const steamId =
       process.env.STEAM_ID;
 
+
+    /* =========================
+       PEGAR LISTA DE AMIGOS
+    ========================= */
+
     const respostaAmigos =
       await fetch(
         `https://api.steampowered.com/ISteamUser/GetFriendList/v1/?key=${apiKey}&steamid=${steamId}&relationship=friend`
       );
 
+
     const dadosAmigos =
       await respostaAmigos.json();
+
 
     if (!dadosAmigos.friendslist) {
 
@@ -33,13 +40,16 @@ async function main() {
 
     }
 
+
     const amigos =
       dadosAmigos.friendslist.friends || [];
+
 
     const ids =
       amigos
         .map(a => a.steamid)
         .join(',');
+
 
     if (!ids) {
 
@@ -52,36 +62,102 @@ async function main() {
 
     }
 
+
+    /* =========================
+       PEGAR PERFIS
+    ========================= */
+
     const respostaPerfis =
       await fetch(
         `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${apiKey}&steamids=${ids}`
       );
 
+
     const dadosPerfis =
       await respostaPerfis.json();
 
-    const resultado =
-      dadosPerfis.response.players.map(
-        jogador => ({
 
-          steamid:
-            jogador.steamid,
+    const jogadores =
+      dadosPerfis.response?.players || [];
 
-          nome:
-            jogador.personaname,
 
-          avatar:
-            jogador.avatarfull,
+    /* =========================
+       PEGAR BANNERS
+    ========================= */
 
-          status:
-            jogador.gameextrainfo
-              ? `Jogando ${jogador.gameextrainfo}`
-              : jogador.personastate > 0
-              ? 'Online'
-              : 'Offline'
+    const resultado = [];
 
-        })
+
+    for (const jogador of jogadores) {
+
+      let banner = '';
+
+
+      try {
+
+        const respostaBanner =
+          await fetch(
+            `https://api.steamcommunity.com/IPlayerService/GetProfileBackground/v1/?key=${apiKey}&steamid=${jogador.steamid}&language=english`
+          );
+
+
+        const dadosBanner =
+          await respostaBanner.json();
+
+
+        banner =
+          dadosBanner?.response
+            ?.profile_background
+            ?.image_large || '';
+
+
+      } catch (erroBanner) {
+
+        console.log(
+          `Nao foi possivel pegar o banner de ${jogador.personaname}`
+        );
+
+      }
+
+
+      /* =========================
+         SALVAR AMIGO
+      ========================= */
+
+      resultado.push({
+
+        steamid:
+          jogador.steamid,
+
+        nome:
+          jogador.personaname,
+
+        avatar:
+          jogador.avatarfull,
+
+        status:
+          jogador.gameextrainfo
+            ? `Jogando ${jogador.gameextrainfo}`
+            : jogador.personastate > 0
+            ? 'Online'
+            : 'Offline',
+
+        banner:
+          banner
+
+      });
+
+
+      console.log(
+        `Amigo processado: ${jogador.personaname}`
       );
+
+    }
+
+
+    /* =========================
+       SALVAR JSON
+    ========================= */
 
     fs.writeFileSync(
       'data/amigos.json',
@@ -92,13 +168,16 @@ async function main() {
       )
     );
 
+
     console.log(
-      'amigos.json gerado'
+      'amigos.json gerado com banners'
     );
+
 
   } catch (erro) {
 
     console.error(erro);
+
 
     fs.writeFileSync(
       'data/amigos.json',
@@ -108,5 +187,6 @@ async function main() {
   }
 
 }
+
 
 main();
