@@ -1,3 +1,4 @@
+```js
 const fs = require('fs');
 
 async function main() {
@@ -19,7 +20,6 @@ async function main() {
       await fetch(
         `https://api.steampowered.com/ISteamUser/GetFriendList/v1/?key=${apiKey}&steamid=${steamId}&relationship=friend`
       );
-
 
     const dadosAmigos =
       await respostaAmigos.json();
@@ -72,7 +72,6 @@ async function main() {
         `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${apiKey}&steamids=${ids}`
       );
 
-
     const dadosPerfis =
       await respostaPerfis.json();
 
@@ -82,7 +81,7 @@ async function main() {
 
 
     /* =========================
-       PEGAR BANNERS
+       PROCESSAR AMIGOS
     ========================= */
 
     const resultado = [];
@@ -93,11 +92,15 @@ async function main() {
       let banner = '';
 
 
+      /* =========================
+         PEGAR BANNER REAL DA STEAM
+      ========================= */
+
       try {
 
         const respostaBanner =
           await fetch(
-            `https://api.steamcommunity.com/IPlayerService/GetProfileBackground/v1/?key=${apiKey}&steamid=${jogador.steamid}&language=english`
+            `https://api.steampowered.com/IPlayerService/GetProfileBackground/v1/?key=${apiKey}&steamid=${jogador.steamid}&language=english`
           );
 
 
@@ -106,15 +109,32 @@ async function main() {
 
 
         banner =
-          dadosBanner?.response
+          dadosBanner
+            ?.response
             ?.profile_background
             ?.image_large || '';
+
+
+        if (banner) {
+
+          console.log(
+            `Banner encontrado: ${jogador.personaname}`
+          );
+
+        } else {
+
+          console.log(
+            `Sem banner: ${jogador.personaname}`
+          );
+
+        }
 
 
       } catch (erroBanner) {
 
         console.log(
-          `Nao foi possivel pegar o banner de ${jogador.personaname}`
+          `Erro ao buscar banner de ${jogador.personaname}:`,
+          erroBanner.message
         );
 
       }
@@ -147,16 +167,11 @@ async function main() {
 
       });
 
-
-      console.log(
-        `Amigo processado: ${jogador.personaname}`
-      );
-
     }
 
 
     /* =========================
-       SALVAR JSON
+       SALVAR AMIGOS.JSON
     ========================= */
 
     fs.writeFileSync(
@@ -170,13 +185,16 @@ async function main() {
 
 
     console.log(
-      'amigos.json gerado com banners'
+      'amigos.json gerado com banners!'
     );
 
 
   } catch (erro) {
 
-    console.error(erro);
+    console.error(
+      'Erro geral:',
+      erro
+    );
 
 
     fs.writeFileSync(
@@ -190,3 +208,4 @@ async function main() {
 
 
 main();
+```
