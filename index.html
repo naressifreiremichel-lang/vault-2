@@ -1,85 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>Vault</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
 </head>
+
 <body>
 
   <div class="container">
 
+    <!-- ========================= -->
+    <!-- CABEÇALHO -->
+    <!-- ========================= -->
+
     <header class="hero">
 
       <div class="hero-overlay">
+
         <h1>VAULT</h1>
-        <p>Sua biblioteca Steam</p>
+
+        <p>
+          Sua biblioteca Steam
+        </p>
+
       </div>
 
     </header>
 
-    <section id="perfil" class="perfil">
 
-      <img id="avatar" src="" alt="Avatar">
+    <!-- ========================= -->
+    <!-- BOTÃO AMIGOS -->
+    <!-- ========================= -->
+
+    <a
+      href="amigos.html"
+      class="botao-amigos"
+    >
+      👥 Amigos
+    </a>
+
+
+    <!-- ========================= -->
+    <!-- PERFIL -->
+    <!-- ========================= -->
+
+    <section
+      id="perfil"
+      class="perfil"
+    >
+
+      <img
+        id="avatar"
+        src=""
+        alt="Avatar"
+      >
 
       <div>
-        <h2 id="nome">Carregando...</h2>
-        <p id="status">Carregando...</p>
-        <p id="totalJogos">0 jogos</p>
+
+        <h2 id="nome">
+          Carregando...
+        </h2>
+
+        <p id="status">
+          Carregando...
+        </p>
+
+        <p id="totalJogos">
+          0 jogos
+        </p>
+
       </div>
 
     </section>
+
+
+    <!-- ========================= -->
+    <!-- ESTATÍSTICAS -->
+    <!-- ========================= -->
 
     <section class="stats">
 
       <div class="stat-card">
-        <h3>Jogos</h3>
-        <p id="statJogos">0</p>
+
+        <h3>
+          Jogos
+        </h3>
+
+        <p id="statJogos">
+          0
+        </p>
+
       </div>
 
-      <div class="stat-card">
-        <h3>Horas Totais</h3>
-        <p id="statHoras">0</p>
-      </div>
 
       <div class="stat-card">
-        <h3>Mais Jogado</h3>
-        <p id="statTop">-</p>
+
+        <h3>
+          Horas Totais
+        </h3>
+
+        <p id="statHoras">
+          0
+        </p>
+
+      </div>
+
+
+      <div class="stat-card">
+
+        <h3>
+          Mais Jogado
+        </h3>
+
+        <p id="statTop">
+          -
+        </p>
+
       </div>
 
     </section>
+
+
+    <!-- ========================= -->
+    <!-- CONQUISTAS -->
+    <!-- ========================= -->
 
     <section class="achievements">
 
-      <h2>🏆 Conquistas</h2>
+      <h2>
+        🏆 Conquistas
+      </h2>
+
 
       <div class="achievement-card">
 
-        <h3>Conquistas Steam</h3>
+        <h3>
+          Conquistas Steam
+        </h3>
+
 
         <div class="achievement-bar">
-          <div class="achievement-fill" id="achievementFill"></div>
+
+          <div
+            class="achievement-fill"
+            id="achievementFill"
+          ></div>
+
         </div>
 
-        <p id="achievementText">Em breve...</p>
+
+        <p id="achievementText">
+          Em breve...
+        </p>
 
       </div>
 
     </section>
 
+
+    <!-- ========================= -->
+    <!-- TOP 5 -->
+    <!-- ========================= -->
+
     <section class="chart-section">
 
-      <h2>📊 Top 5 Jogos</h2>
+      <h2>
+        📊 Top 5 Jogos
+      </h2>
+
 
       <div id="topChart"></div>
 
     </section>
 
+
+    <!-- ========================= -->
+    <!-- BIBLIOTECA -->
+    <!-- ========================= -->
+
     <section>
 
-      <h2>Biblioteca</h2>
+      <h2>
+        Biblioteca
+      </h2>
+
+
+      <!-- PESQUISA -->
 
       <input
         type="text"
@@ -87,17 +207,39 @@
         placeholder="Pesquisar jogo..."
       >
 
-      <h2>Mais Jogados</h2>
 
-      <div id="topGames" class="top-games"></div>
+      <!-- MAIS JOGADOS -->
 
-      <div id="games" class="grid"></div>
+      <h2>
+        Mais Jogados
+      </h2>
+
+
+      <div
+        id="topGames"
+        class="top-games"
+      ></div>
+
+
+      <!-- TODOS OS JOGOS -->
+
+      <div
+        id="games"
+        class="grid"
+      ></div>
 
     </section>
 
+
   </div>
+
+
+  <!-- ========================= -->
+  <!-- JAVASCRIPT -->
+  <!-- ========================= -->
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
