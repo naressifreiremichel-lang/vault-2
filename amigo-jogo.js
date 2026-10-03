@@ -73,7 +73,7 @@ async function carregarJogo() {
 
 
     /* =========================
-       NOME DO JOGO
+       NOME
     ========================= */
 
     document.getElementById(
@@ -149,7 +149,7 @@ async function carregarJogo() {
 
 
 /* =========================
-   CONQUISTAS
+   CARREGAR CONQUISTAS
 ========================= */
 
 async function carregarConquistas() {
@@ -177,9 +177,7 @@ async function carregarConquistas() {
 
 
     if (!container) {
-
       return;
-
     }
 
 
@@ -216,19 +214,17 @@ async function carregarConquistas() {
 
     let html = `
 
-      <div class="stat">
+      <div class="achievement-summary">
 
         <h2>
           🏆 Conquistas
         </h2>
 
-        <p>
-          ${jogo.desbloqueadas}
-          /
-          ${jogo.total}
+        <p class="achievement-number">
+          ${jogo.desbloqueadas} / ${jogo.total}
         </p>
 
-        <p>
+        <p class="achievement-percent">
           ${jogo.percentual}%
         </p>
 
@@ -258,13 +254,9 @@ async function carregarConquistas() {
       jogo.achievements.forEach(
         conquista => {
 
-
-          /*
-             NOME DA CONQUISTA
-
-             O nosso JSON salva
-             o nome no campo "nome".
-          */
+          /* =========================
+             NOME
+          ========================= */
 
           const nome =
             conquista.nome ||
@@ -275,9 +267,9 @@ async function carregarConquistas() {
             'Conquista sem nome';
 
 
-          /*
-             VERIFICAR SE FOI DESBLOQUEADA
-          */
+          /* =========================
+             STATUS
+          ========================= */
 
           const desbloqueada =
             conquista.desbloqueada === true ||
@@ -286,30 +278,111 @@ async function carregarConquistas() {
             conquista.achieved === 1;
 
 
+          /* =========================
+             IMAGEM REAL
+          ========================= */
+
+          let icone = '';
+
+          if (desbloqueada) {
+
+            icone =
+              conquista.icone ||
+              conquista.icon ||
+              '';
+
+          } else {
+
+            icone =
+              conquista.iconeCinza ||
+              conquista.icongray ||
+              conquista.icone ||
+              conquista.icon ||
+              '';
+
+          }
+
+
+          /* =========================
+             HTML DA IMAGEM
+          ========================= */
+
+          let imagemHTML = '';
+
+          if (icone) {
+
+            imagemHTML = `
+
+              <img
+                src="${icone}"
+                alt="${nome}"
+                class="achievement-image"
+                loading="lazy"
+              >
+
+            `;
+
+          } else {
+
+            imagemHTML = `
+
+              <div class="achievement-sem-icone">
+                🏆
+              </div>
+
+            `;
+
+          }
+
+
+          /* =========================
+             CARD
+          ========================= */
+
           html += `
 
             <div class="achievement-item">
 
-              <div class="achievement-name">
+              <div class="achievement-icon">
 
-                <span class="trofeu">
-                  🏆
-                </span>
-
-                <strong>
-                  ${nome}
-                </strong>
+                ${imagemHTML}
 
               </div>
 
 
-              <div class="achievement-status">
+              <div class="achievement-info">
+
+                <h3>
+                  ${nome}
+                </h3>
+
 
                 ${
-                  desbloqueada
-                    ? '✅ Desbloqueada'
-                    : '❌ Bloqueada'
+                  conquista.descricao
+                    ? `
+                      <p>
+                        ${conquista.descricao}
+                      </p>
+                    `
+                    : ''
                 }
+
+
+                <span
+                  class="${
+                    desbloqueada
+                      ? 'achievement-unlocked'
+                      : 'achievement-locked'
+                  }"
+                >
+
+                  ${
+                    desbloqueada
+                      ? '✅ Desbloqueada'
+                      : '❌ Bloqueada'
+                  }
+
+                </span>
 
               </div>
 
@@ -346,7 +419,7 @@ async function carregarConquistas() {
 
 
     /* =========================
-       MOSTRAR
+       MOSTRAR NA PÁGINA
     ========================= */
 
     container.innerHTML =
