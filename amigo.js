@@ -6,18 +6,24 @@ const params =
 const steamid =
   params.get('steamid');
 
+
 async function carregarAmigo() {
 
   const respostaAmigos =
-    await fetch('./data/amigos.json');
+    await fetch(
+      './data/amigos.json'
+    );
 
   const amigos =
     await respostaAmigos.json();
 
+
   const amigo =
     amigos.find(
-      a => a.steamid === steamid
+      a =>
+        a.steamid === steamid
     );
+
 
   if (!amigo) {
 
@@ -30,36 +36,50 @@ async function carregarAmigo() {
 
   }
 
+
+  /* =========================
+     PERFIL
+  ========================= */
+
   document.getElementById(
     'avatar'
   ).src =
     amigo.avatar;
+
 
   document.getElementById(
     'nome'
   ).textContent =
     amigo.nome;
 
+
   document.getElementById(
     'status'
   ).textContent =
     amigo.status;
+
 
   document.getElementById(
     'status2'
   ).textContent =
     amigo.status;
 
+
   document.getElementById(
     'steamid'
   ).textContent =
     amigo.steamid;
 
+
+  /* =========================
+     MÚSICA DO AMIGO
+  ========================= */
+
   if (
     amigo.nome &&
-    amigo.nome.toLowerCase().includes(
-      'ovos'
-    )
+    amigo.nome
+      .toLowerCase()
+      .includes('ovos')
   ) {
 
     document.getElementById(
@@ -87,21 +107,30 @@ async function carregarAmigo() {
 
   }
 
+
+  /* =========================
+     JOGOS
+  ========================= */
+
   const respostaJogos =
     await fetch(
       './data/friend-games.json'
     );
 
+
   const jogosPorAmigo =
     await respostaJogos.json();
 
+
   const jogos =
     jogosPorAmigo[steamid] || [];
+
 
   const biblioteca =
     document.getElementById(
       'biblioteca'
     );
+
 
   if (jogos.length === 0) {
 
@@ -120,26 +149,46 @@ async function carregarAmigo() {
 
   }
 
+
+  /* =========================
+     ORDENAR POR TEMPO
+  ========================= */
+
   jogos.sort(
     (a, b) =>
       b.playtime_forever -
       a.playtime_forever
   );
 
+
   biblioteca.innerHTML = '';
+
+
+  /* =========================
+     MOSTRAR JOGOS
+  ========================= */
 
   jogos.forEach(jogo => {
 
+
     const horas =
-      Math.round(
+      Math.floor(
         jogo.playtime_forever / 60
       );
+
+
+    const minutos =
+      jogo.playtime_forever % 60;
+
 
     biblioteca.innerHTML += `
 
       <a
         href="amigo-jogo.html?steamid=${steamid}&appid=${jogo.appid}"
-        style="text-decoration:none;color:inherit;"
+        style="
+          text-decoration:none;
+          color:inherit;
+        "
       >
 
         <div class="game-card">
@@ -157,7 +206,7 @@ async function carregarAmigo() {
             </h3>
 
             <p class="game-hours">
-              ⏱️ ${horas} horas
+              ⏱️ ${horas}h ${String(minutos).padStart(2, '0')}min
             </p>
 
           </div>
@@ -171,5 +220,6 @@ async function carregarAmigo() {
   });
 
 }
+
 
 carregarAmigo();
