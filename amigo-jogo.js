@@ -3,11 +3,18 @@ const params =
     window.location.search
   );
 
+
 const steamid =
   params.get('steamid');
 
+
 const appid =
   params.get('appid');
+
+
+/* =========================
+   CARREGAR JOGO
+========================= */
 
 async function carregarJogo() {
 
@@ -16,11 +23,14 @@ async function carregarJogo() {
       './data/friend-games.json'
     );
 
+
   const dadosJogos =
     await respostaJogos.json();
 
+
   const jogos =
     dadosJogos[steamid] || [];
+
 
   const jogo =
     jogos.find(
@@ -28,6 +38,7 @@ async function carregarJogo() {
         String(j.appid) ===
         String(appid)
     );
+
 
   if (!jogo) {
 
@@ -40,30 +51,68 @@ async function carregarJogo() {
 
   }
 
+
+  /* =========================
+     HORAS E MINUTOS
+  ========================= */
+
   const horas =
-    Math.round(
+    Math.floor(
       jogo.playtime_forever / 60
     );
+
+
+  const minutos =
+    jogo.playtime_forever % 60;
+
+
+  const tempoFormatado =
+    `${horas}h ${String(minutos).padStart(2, '0')}min`;
+
+
+  /* =========================
+     NOME
+  ========================= */
 
   document.getElementById(
     'nomeJogo'
   ).textContent =
     jogo.name;
 
+
+  /* =========================
+     TEMPO NO BANNER
+  ========================= */
+
   document.getElementById(
     'horas'
   ).textContent =
-    `⏱️ ${horas} horas jogadas`;
+    `⏱️ ${tempoFormatado}`;
+
+
+  /* =========================
+     TEMPO TOTAL
+  ========================= */
 
   document.getElementById(
     'horasTotal'
   ).textContent =
-    horas + 'h';
+    tempoFormatado;
+
+
+  /* =========================
+     APP ID
+  ========================= */
 
   document.getElementById(
     'appid'
   ).textContent =
     jogo.appid;
+
+
+  /* =========================
+     BANNER
+  ========================= */
 
   document.getElementById(
     'banner'
@@ -78,125 +127,167 @@ async function carregarJogo() {
     )
     `;
 
+
+  /* =========================
+     CONQUISTAS
+  ========================= */
+
   carregarConquistas();
 
 }
 
+
+/* =========================
+   CONQUISTAS
+========================= */
+
 async function carregarConquistas() {
 
-  const resposta =
-    await fetch(
-      './data/friend-achievements.json'
-    );
+  try {
 
-  const dados =
-    await resposta.json();
+    const resposta =
+      await fetch(
+        './data/friend-achievements.json'
+      );
 
-  const jogo =
-    dados?.[steamid]?.[appid];
 
-  const container =
-    document.getElementById(
-      'conquistas'
-    );
+    const dados =
+      await resposta.json();
 
-  if (!container)
-    return;
 
-  if (!jogo) {
+    const jogo =
+      dados?.[steamid]?.[appid];
 
-    container.innerHTML = `
+
+    const container =
+      document.getElementById(
+        'conquistas'
+      );
+
+
+    if (!container) {
+      return;
+    }
+
+
+    if (!jogo) {
+
+      container.innerHTML = `
+
+        <div class="stat">
+
+          Nenhuma conquista encontrada.
+
+        </div>
+
+      `;
+
+      return;
+
+    }
+
+
+    let html = `
+
       <div class="stat">
-        Nenhuma conquista encontrada.
+
+        <h2>
+          🏆 Conquistas
+        </h2>
+
+        <p>
+          ${jogo.desbloqueadas}
+          /
+          ${jogo.total}
+        </p>
+
+        <p>
+          ${jogo.percentual}%
+        </p>
+
       </div>
+
     `;
 
-    return;
 
-  }
+    /* =========================
+       CONQUISTAS INDIVIDUAIS
+    ========================= */
 
-  let html = `
+    if (
+      jogo.achievements &&
+      jogo.achievements.length
+    ) {
 
-    <div class="stat">
+      html += `
 
-      <h2>🏆 Conquistas</h2>
+        <div class="games-grid">
 
-      <p>
-        ${jogo.desbloqueadas}
-        /
-        ${jogo.total}
-      </p>
+      `;
 
-      <p>
-        ${jogo.percentual}%
-      </p>
 
-    </div>
+      jogo.achievements.forEach(
+        conquista => {
 
-  `;
+          html += `
 
-  if (
-    jogo.achievements &&
-    jogo.achievements.length
-  ) {
+            <div class="game-card">
 
-    html += `
-      <div class="games-grid">
-    `;
+              <div class="game-content">
 
-    jogo.achievements.forEach(
-      conquista => {
+                <h3>
+                  🏆
+                  ${conquista.apiName}
+                </h3>
 
-        html += `
+                <p>
 
-          <div class="achievement-card">
+                  ${
+                    conquista.desbloqueada
+                      ? '✅ Desbloqueada'
+                      : '❌ Bloqueada'
 
-            <img
-              class="achievement-icon"
-              src="${
-                conquista.desbloqueada
-                  ? conquista.icone
-                  : conquista.iconeCinza
-              }"
-              alt="${conquista.nome}"
-            >
+                  }
 
-            <div>
+                </p>
 
-              <h3>
-                ${conquista.nome}
-              </h3>
-
-              <p>
-                ${conquista.descricao || ''}
-              </p>
-
-              <p>
-                ${
-                  conquista.desbloqueada
-                    ? '✅ Desbloqueada'
-                    : '❌ Bloqueada'
-                }
-              </p>
+              </div>
 
             </div>
 
-          </div>
+          `;
 
-        `;
+        }
+      );
 
-      }
+
+      html += `
+
+        </div>
+
+      `;
+
+    }
+
+
+    container.innerHTML =
+      html;
+
+
+  } catch (erro) {
+
+    console.error(
+      'Erro ao carregar conquistas:',
+      erro
     );
-
-    html += `
-      </div>
-    `;
 
   }
 
-  container.innerHTML =
-    html;
-
 }
+
+
+/* =========================
+   INICIAR
+========================= */
 
 carregarJogo();
