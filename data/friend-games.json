@@ -1,5 +1,4 @@
 {
-  "76561199438642145": [],
   "76561199173115119": [
     {
       "appid": 550,
@@ -26,7 +25,6 @@
     {
       "appid": 108600,
       "name": "Project Zomboid",
-      "playtime_2weeks": 72,
       "playtime_forever": 4569,
       "img_icon_url": "2bd4642ae337e378e7b04a19d19683425c5f81a4",
       "content_descriptorids": [
@@ -262,7 +260,8 @@
     {
       "appid": 730,
       "name": "Counter-Strike 2",
-      "playtime_forever": 3452,
+      "playtime_2weeks": 10,
+      "playtime_forever": 3463,
       "img_icon_url": "8dbc71957312bbd3baea65848b545be9eae2a355",
       "has_community_visible_stats": true,
       "content_descriptorids": [
@@ -284,7 +283,8 @@
     {
       "appid": 227300,
       "name": "Euro Truck Simulator 2",
-      "playtime_forever": 33,
+      "playtime_2weeks": 14,
+      "playtime_forever": 47,
       "img_icon_url": "adc18a4fc9adc0330144b76d61cbda68bb2394a0",
       "has_community_visible_stats": true
     },
@@ -364,5 +364,6 @@
       "playtime_forever": 187,
       "img_icon_url": "f1a1fc79596a32998ceb7e01ae8c7525590e7576"
     }
-  ]
+  ],
+  "76561199438642145": []
 }
