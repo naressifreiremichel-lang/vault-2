@@ -82,17 +82,29 @@ async function carregarJogo() {
       jogo.name;
 
 
+    /* =========================
+       TEMPO NO BANNER
+    ========================= */
+
     document.getElementById(
       'horas'
     ).textContent =
       `⏱️ ${tempoFormatado}`;
 
 
+    /* =========================
+       TEMPO TOTAL
+    ========================= */
+
     document.getElementById(
       'horasTotal'
     ).textContent =
       tempoFormatado;
 
+
+    /* =========================
+       APP ID
+    ========================= */
 
     document.getElementById(
       'appid'
@@ -123,7 +135,6 @@ async function carregarJogo() {
     ========================= */
 
     await carregarConquistas();
-
 
   } catch (erro) {
 
@@ -182,7 +193,13 @@ async function carregarConquistas() {
 
         <div class="stat">
 
-          Nenhuma conquista encontrada.
+          <h3>
+            🏆 Conquistas
+          </h3>
+
+          <p>
+            Nenhuma conquista encontrada.
+          </p>
 
         </div>
 
@@ -243,21 +260,23 @@ async function carregarConquistas() {
 
 
           /*
-             Procura o nome da conquista
-             em vários campos possíveis.
+             NOME DA CONQUISTA
+
+             O nosso JSON salva
+             o nome no campo "nome".
           */
 
           const nome =
+            conquista.nome ||
             conquista.displayName ||
             conquista.displayname ||
-            conquista.name ||
             conquista.apiName ||
             conquista.apiname ||
             'Conquista sem nome';
 
 
           /*
-             Verifica se foi desbloqueada.
+             VERIFICAR SE FOI DESBLOQUEADA
           */
 
           const desbloqueada =
@@ -283,6 +302,7 @@ async function carregarConquistas() {
 
               </div>
 
+
               <div class="achievement-status">
 
                 ${
@@ -307,11 +327,26 @@ async function carregarConquistas() {
 
       `;
 
+    } else {
+
+      html += `
+
+        <div class="stat">
+
+          <p>
+            As conquistas individuais
+            não estão disponíveis.
+          </p>
+
+        </div>
+
+      `;
+
     }
 
 
     /* =========================
-       MOSTRAR NA PÁGINA
+       MOSTRAR
     ========================= */
 
     container.innerHTML =
@@ -338,7 +373,13 @@ async function carregarConquistas() {
 
         <div class="stat">
 
-          Erro ao carregar conquistas.
+          <h3>
+            🏆 Conquistas
+          </h3>
+
+          <p>
+            Erro ao carregar conquistas.
+          </p>
 
         </div>
 
